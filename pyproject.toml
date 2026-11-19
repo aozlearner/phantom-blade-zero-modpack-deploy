@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pbz-modpack-deploy"
+version = "0.1.0"
+description = "Manifest-locked installation and rollback for a PBZ wardrobe modpack"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[tool.setuptools]
+packages = ["pbzpack"]

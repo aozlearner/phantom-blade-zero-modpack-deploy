@@ -1,0 +1,480 @@
+{
+  "outfits": [
+    {
+      "id": "Hun_OutFit_Boss_PengMeng",
+      "name": "斧老大·彭猛",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossPengMengVariants.js",
+      "description": "斧老大·彭猛独立衣柜外观，保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_XiaoXue",
+      "name": "吞噬尸体的小雪",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossXiaoXueVariants.js",
+      "description": "吞噬尸体的小雪独立衣柜外观，保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_SawMan",
+      "name": "锯者",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossSawManVariants.js",
+      "description": "锯者独立衣柜外观，保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_TieGui",
+      "name": "铁鬼",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossTieGuiVariants.js",
+      "description": "铁鬼独立衣柜外观，保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_PowerMan",
+      "name": "力者",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossPowerManVariants.js",
+      "description": "力者独立衣柜外观，保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_YoungZuoShang",
+      "name": "少年左殇",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossYoungZuoShangVariants.js",
+      "description": "少年左殇独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_ZuoShang",
+      "name": "左殇·冥主",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossZuoShangVariants.js",
+      "description": "左殇·冥主独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_ZuoShangLongTi",
+      "name": "左殇·真龙之躯",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossZuoShangLongTiVariants.js",
+      "description": "左殇·真龙之躯独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_HookMan",
+      "name": "追命·一阶段",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossHookManVariants.js",
+      "description": "追命·一阶段独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_HuaQianXiao",
+      "name": "剑痴·花千笑",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossHuaQianXiaoVariants.js",
+      "description": "剑痴·花千笑独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_JingYe",
+      "name": "亡命徒·荆野",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossJingYeVariants.js",
+      "description": "亡命徒·荆野独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_ChiLianP2",
+      "name": "白赤练·献祭之蛇",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossChiLianP2Variants.js",
+      "description": "白赤练·献祭之蛇独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_BiYuan",
+      "name": "毕远掌门残躯",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossBiYuanVariants.js",
+      "description": "毕远掌门残躯独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_BiHai",
+      "name": "碧海大师残躯",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossBiHaiVariants.js",
+      "description": "碧海大师残躯独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_DangHui",
+      "name": "操偶师·荡秽",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossDangHuiVariants.js",
+      "description": "操偶师·荡秽独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_GuWanYue",
+      "name": "女妖·骨婉约",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossGuWanYueVariants.js",
+      "description": "女妖·骨婉约独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_GuiChaiRed",
+      "name": "火流星·一阶段",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossGuiChaiRedVariants.js",
+      "description": "火流星·一阶段独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_GuiChaiRedP2",
+      "name": "火流星·二阶段（磷火意识）",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossGuiChaiRedP2Variants.js",
+      "description": "火流星·二阶段（磷火意识）独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_LionDancerP2",
+      "name": "舞狮尊主·二阶段",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossLionDancerP2Variants.js",
+      "description": "舞狮尊主·二阶段独立衣柜外观。保留主角操作、原衣装与现有 MOD。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_YanRu",
+      "name": "灭法之法·炎茹",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossYanRuVariants.js",
+      "description": "灭法之法·炎茹独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_LeiTing",
+      "name": "灭法之法·雷婷",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossLeiTingVariants.js",
+      "description": "灭法之法·雷婷独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_GuHe",
+      "name": "灭法之法·蛊鹤",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossGuHeVariants.js",
+      "description": "灭法之法·蛊鹤独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_HanSui",
+      "name": "灭法之法·寒岁",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossHanSuiVariants.js",
+      "description": "灭法之法·寒岁独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_HuoDaoDuiZhang",
+      "name": "火刀·祝原",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossHuoDaoDuiZhangVariants.js",
+      "description": "火刀·祝原独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_YanYan",
+      "name": "疯婆子·奎艳艳",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossYanYanVariants.js",
+      "description": "疯婆子·奎艳艳独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_QiuFeng",
+      "name": "赤影骨刃·囚锋",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossQiuFengVariants.js",
+      "description": "赤影骨刃·囚锋独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_DuanChang",
+      "name": "鬼差高手·断肠",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossDuanChangVariants.js",
+      "description": "鬼差高手·断肠独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_DuYan",
+      "name": "独眼弓客",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossDuYanVariants.js",
+      "description": "独眼弓客独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_HuangXingZi",
+      "name": "荒行子·一阶段",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossHuangXingZiVariants.js",
+      "description": "荒行子·一阶段独立衣柜外观。保留主角操作、原衣装与现有 MOD。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_FengXueDaoKe",
+      "name": "风雪刀客",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossFengXueDaoKeVariants.js",
+      "description": "风雪刀客独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_LeiDang",
+      "name": "虎炮·雷当",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossLeiDangVariants.js",
+      "description": "虎炮·雷当独立衣柜外观。保留主角操作、原衣装与现有 MOD。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_LeiDangP2",
+      "name": "雷当·独臂虎",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossLeiDangP2Variants.js",
+      "description": "雷当·独臂虎独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_LengTu",
+      "name": "梦差·冷荼",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossLengTuVariants.js",
+      "description": "梦差·冷荼独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_MengHua",
+      "name": "梦华圣母",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossMengHuaVariants.js",
+      "description": "梦华圣母独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_YuBi",
+      "name": "剑偶·玉璧",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossYuBiVariants.js",
+      "description": "剑偶·玉璧独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_YuZan",
+      "name": "乐师偶·玉瓒",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossYuZanVariants.js",
+      "description": "乐师偶·玉瓒独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_MoTianMasked",
+      "name": "金面具黑衣人",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossMoTianMaskedVariants.js",
+      "description": "金面具黑衣人独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_MoYuan",
+      "name": "暗魔天堡之主·魔渊",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossMoYuanVariants.js",
+      "description": "暗魔天堡之主·魔渊独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_ChangHong",
+      "name": "雷枪·长鸿",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossChangHongVariants.js",
+      "description": "雷枪·长鸿独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_WanJun",
+      "name": "巨锤客·万钧",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossWanJunVariants.js",
+      "description": "巨锤客·万钧独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_RedSwordswoman",
+      "name": "红衣女剑客",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossRedSwordswomanVariants.js",
+      "description": "红衣女剑客独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_ChiefDisciple",
+      "name": "七星剑阵·大师兄",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossChiefDiscipleVariants.js",
+      "description": "七星剑阵·大师兄独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_ChiefDiscipleP2",
+      "name": "大师兄·绝望剑意",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossChiefDiscipleP2Variants.js",
+      "description": "大师兄·绝望剑意独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_AJin",
+      "name": "悲痛欲绝的阿瑾",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossAJinVariants.js",
+      "description": "悲痛欲绝的阿瑾独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_BiFeng",
+      "name": "横刀·毕峰",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossBiFengVariants.js",
+      "description": "横刀·毕峰独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_JadeMaskMan",
+      "name": "玉面郎君",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossJadeMaskManVariants.js",
+      "description": "玉面郎君独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_YouLong",
+      "name": "水行帮主·游龙",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossYouLongVariants.js",
+      "description": "水行帮主·游龙独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_YuCongP1",
+      "name": "混沌魔偶·玉琮",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossYuCongP1Variants.js",
+      "description": "混沌魔偶·玉琮独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_ZuoShangEnding",
+      "name": "左殇·决战",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossZuoShangEndingVariants.js",
+      "description": "左殇·决战独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_ChenZhu",
+      "name": "铁面杀手·陈柱",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossChenZhuVariants.js",
+      "description": "铁面杀手·陈柱独立衣柜外观；保留主角操作与原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_XianZhe",
+      "name": "弦者",
+      "provider": "pbz-xianzhe-model",
+      "variantModule": "PBZXianZheVariants.js",
+      "description": "弦者 NPC 外观：身体、面部、眉睫、三片衣料与原生头发；面部使用弦者 DNA。保留主角操作、招式与语音。"
+    },
+    {
+      "id": "Hun_OutFit_YuYao",
+      "name": "玉妖",
+      "provider": "pbz-yuyao-model",
+      "variantModule": "PBZYuYaoVariants.js",
+      "description": "玉妖完整外观：身体、面部、头发、披风及裙摆。鞋跟双剑隐藏；保留主角的操作、招式与语音。"
+    },
+    {
+      "id": "Hun_OutFit_YuDing",
+      "name": "玉鼎",
+      "provider": "pbz-yuding-model",
+      "variantModule": "PBZYuDingVariants.js",
+      "description": "十二号·偃月刀偶·玉鼎。使用原版模型、衣装与头发物理，保留主角的操作与招式；不替换玩家语音。"
+    },
+    {
+      "id": "Hun_OutFit_MuXiaoKuiP1",
+      "name": "沐小葵（一阶段）",
+      "provider": "pbz-muxiaokui-p1-model",
+      "variantModule": "PBZMuXiaoKuiP1Variants.js",
+      "description": "沐小葵一阶段 Boss 外观，包含原版红袖、披风、束发和发饰。"
+    },
+    {
+      "id": "Hun_OutFit_MuXiaoKuiP2",
+      "name": "沐小葵（二阶段）",
+      "provider": "pbz-muxiaokui-p2-model",
+      "variantModule": "PBZMuXiaoKuiP2Variants.js",
+      "description": "沐小葵二阶段 Boss 外观，包含红发与二阶段裙摆。保留主角原始衣装及其他独立角色。"
+    },
+    {
+      "id": "Hun_OutFit_BaiChiLian",
+      "name": "白赤练·戴面具",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBaiChiLianVariants.js",
+      "description": "白赤练戴面具的独立衣柜外观。保留主角的操作与招式。"
+    },
+    {
+      "id": "Hun_OutFit_BaiChiLian_LongHair",
+      "name": "白赤练·不戴面具",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBaiChiLianVariants.js",
+      "description": "白赤练不戴面具的独立衣柜外观。与戴面具版使用相同发型和服装。"
+    },
+    {
+      "id": "Hun_OutFit_BiTaoTao",
+      "name": "碧桃桃",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBiTaoTaoVariants.js",
+      "description": "游戏原生桃桃模型的独立衣柜适配。保留主角操作与现有角色衣装。"
+    },
+    {
+      "id": "Hun_OutFit_WuLengShuang",
+      "name": "软剑·乌冷霜",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZWuLengShuangVariants.js",
+      "description": "软剑·乌冷霜原生外观的独立衣柜适配，保留主角操作和原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_AHua",
+      "name": "新娘阿花",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZAHuaVariants.js",
+      "description": "新娘阿花原生外观的独立衣柜适配，保留主角操作和原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_YuEr",
+      "name": "玉儿",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZYuErVariants.js",
+      "description": "玉儿原生外观的独立衣柜适配，保留主角操作和原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_YuErControlled",
+      "name": "玉儿·受控（红绳）",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZYuErControlledVariants.js",
+      "description": "梦差控制下的玉儿，带原生红绳与二阶段衣料。独立衣柜外观。"
+    },
+    {
+      "id": "Hun_OutFit_XuKong",
+      "name": "虚空",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZXuKongVariants.js",
+      "description": "虚空 NPC 外观，包含原版面容、发型和服装。"
+    },
+    {
+      "id": "Hun_OutFit_YanQianSui",
+      "name": "烟千岁",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZYanQianSuiVariants.js",
+      "description": "烟千岁原生外观的独立衣柜适配，保留主角操作和原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_LianXie",
+      "name": "炼邪",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZLianXieVariants.js",
+      "description": "炼邪原生外观的独立衣柜适配，保留主角操作和原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_HuanGuiCoat",
+      "name": "幻鬼",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZHuanGuiCoatVariants.js",
+      "description": "幻鬼原生外观的独立衣柜适配，保留主角操作和原衣装。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_YoungHun",
+      "name": "少年魂",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossYoungHunVariants.js",
+      "description": "少年魂独立衣柜外观。保留主角操作、原衣装与现有 MOD。"
+    },
+    {
+      "id": "Hun_OutFit_Boss_ZhenYao",
+      "name": "珍妖",
+      "provider": "pbz-wardrobe-expansion",
+      "variantModule": "PBZBossZhenYaoVariants.js",
+      "description": "珍妖独立衣柜外观。保留主角操作、原衣装与现有 MOD。"
+    }
+  ]
+}
