@@ -1,3 +1,3 @@
 # Preserve the reviewed baseline bytes recorded in reuse-audit.json.
-runtime/reused/HairMaterialGuard.js -text
+runtime/reused/HairMaterialGuard.js -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 runtime/reused/YuErControlledMaterials.js -text
