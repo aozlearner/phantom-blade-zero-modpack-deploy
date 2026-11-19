@@ -1,8 +1,16 @@
-# PBZ Modpack Deploy
+# Phantom Blade Zero Modpack Deploy
+
+**影之刃零 / 影之刃0 MOD 安装、备份与回滚工程**
+
+[English](README.en.md) · [Agent 操作手册](docs/AGENT_RUNBOOK.md) · [MIT License](LICENSE)
+
+Manifest-locked installation, backup, verification, and rollback for a recorded Phantom Blade Zero (PBZ / ProjectPBZ) wardrobe modpack.
 
 《影之刃零》当前 MOD 组合的独立安装工程。将已验证的文件版本、衣柜清单、安装、备份、核验和回滚交给另一个 Agent 或用户执行。**这是普通 Python 项目，完全不依赖任何 Skill、特定 Agent 平台或原作者机器上的目录。**
 
 当前基线：Steam `4115450` / build `26367565`，游戏标题版本 `302256-17280`，2026-11-19，**68 个独立衣柜条目、847 个部署文件**。包含 PBZModLoader、UE4SS、角色外观、战斗语音、头发材质保护、缩略图和地图未收集物品标记。
+
+这是卸载前导出的历史组合基线；维护者本机之后已将 MOD 全部备份并卸载。仓库清单保留该组合以供复现，不表示本机现在仍安装这些 MOD。847 是部署文件数量，不是 MOD 数量。
 
 ## 先了解资源要求
 
@@ -82,3 +90,5 @@ python -m pbzpack export --game "D:\SteamLibrary\steamapps\common\PBZ" --bundle 
 开发验证：`python -m unittest discover -s tests -v`。GitHub Actions 配置 Windows/Linux；Linux 仅测试离线逻辑，真实游戏安装仅支持 Windows。
 
 MIT 许可仅涵盖本仓库原创部署代码和文档，不改变游戏及第三方 MOD 的许可。
+
+角色制作方法单独发布于 [Phantom Blade Zero Wardrobe Skill](https://github.com/aozlearner/phantom-blade-zero-wardrobe-skill)。两仓库互不依赖，本工程无需安装 Skill。社区项目，与游戏开发商或发行商无隶属关系。
