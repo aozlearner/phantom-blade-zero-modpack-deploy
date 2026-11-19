@@ -8,7 +8,7 @@ This directory is **not an installable replacement** for the recorded character 
 node experimental/native-runtime/retarget.test.js
 ```
 
-此目录用于替换旧适配依赖的研究，**不能直接安装**。目前只有新编写的相对参考姿势运动计算及测试，没有附带游戏资源或复制旧作者的动画图。衣柜注册、原生接口、握持、头部、衣料和声音路由都需要分别实现并验证，不能把数学测试通过写成 68 个角色已可用。
+此目录用于替换旧适配依赖的研究，**不能直接安装**。已独立编写相对参考姿势计算、两段式手臂 IK、语音选择规则与离线测试，没有附带游戏资源或复制旧作者的动画图。衣柜注册、引擎接入、实际握持、头部、衣料和声音播放都需要分别实现并验证，不能把离线测试通过写成 68 个角色已可用。
 
 Runtime API declarations found in the upstream loader SDK are reflection output, not proof that their wildcard/struct parameters work from Puerts. A separate title-only transient-object probe is required before choosing the final wardrobe registration approach. It must not write original assets, unlock outfits, or load a save.
 
