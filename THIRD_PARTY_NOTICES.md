@@ -23,3 +23,14 @@ The recorded private baseline includes adaptations derived from pre-existing cha
 历史私人基线含有沿用其他角色 MOD 的适配脚本和动画图，本说明不授予这些内容新的许可。公开替代实现独立编写，不通过改名或复制旧动画图完成。官方模型、贴图、衣料、毛发与声音使用玩家自己的游戏资源。
 
 The deployment project and the separately published authoring Skill remain independent projects. Map Collectible Markers and UE4SS are excluded from this wardrobe distribution.
+
+## Local table research tools / 本机衣柜表研究工具
+
+The local table experiment uses external tools and their documented formats:
+
+- [UAssetAPI](https://github.com/atenfyr/UAssetAPI) and [UAssetGUI](https://github.com/atenfyr/UAssetGUI), by **atenfyr**, [MIT license](https://github.com/atenfyr/UAssetAPI/blob/master/LICENSE).
+- [retoc](https://github.com/trumank/retoc), by **Truman Kilen and Archengius**, [MIT license](https://github.com/trumank/retoc/blob/master/LICENSE).
+
+These binaries and their implementation code are not redistributed in this repository. Download tools from upstream and retain their notices. The independently authored table builder does not grant redistribution rights to its player-local inputs or generated game-data outputs.
+
+以上外部工具及其实现代码不随本仓库分发；从上游获取时应保留其许可和版权通知。独立编写生成器不意味着可以公开分发其读取的游戏数据或生成的本机游戏表。
