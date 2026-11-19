@@ -2,7 +2,7 @@
 
 ## 分层与锁定
 
-PBZModLoader 1.0.4 使用 `platform/steam/version.dll` 和 `ProjectPBZ/PBZModLoader`，运行衣柜、语音与材质保护脚本。UE4SS 4.0.0 使用 `platform/steam/dwmapi.dll`，运行 Map Collectible Markers 2.2.7。两条加载链都在清单里，不能只复制衣柜文件。
+PBZModLoader 1.0.4 使用 `platform/steam/version.dll` 和 `ProjectPBZ/PBZModLoader`，运行衣柜、语音与材质保护脚本。地图标记与 UE4SS 已按新范围排除；当前候选不含 `dwmapi.dll` 或 UE4SS 文件。
 
 `ProjectPBZ/Content/JavaScript/PBZModLoader` 下只部署 bootstrap 和 manager。generated-config、generated-mods 和 generated-reloads 由加载器生成，不能复制旧缓存当作源代码。现有只读资源扫描插件也保留在基线中，它可能在游戏 Saved 目录生成诊断文件，这些输出不进入资源包。
 

@@ -1,0 +1,25 @@
+"use strict";
+const assert=require('node:assert/strict');
+const {componentSpace,toLocal,retarget}=require('./retarget');
+const I=[0,0,0,1],Q=[0,0,Math.SQRT1_2,Math.SQRT1_2];
+const bone=(name,parent,translation,rotation=I)=>({name,parent,translation,rotation});
+function near(a,b){assert.equal(a.length,b.length);a.forEach((x,i)=>assert.ok(Math.abs(x-b[i])<1e-8,`${a} != ${b}`));}
+const source=[bone('root',-1,[0,0,0]),bone('arm',0,[1,0,0]),bone('hand',1,[1,0,0])];
+const target=[bone('root',-1,[0,0,0]),bone('arm',0,[2,0,0]),bone('hand',1,[3,0,0])];
+const unchanged=JSON.stringify([source,target]);
+near(retarget(source,source,target)[2].translation,[5,0,0]);
+const posed=structuredClone(source);posed[1].rotation=Q;
+near(retarget(source,posed,target)[2].translation,[2,3,0]);
+near(retarget(source,posed,target)[2].rotation,Q);
+const moved=structuredClone(source);moved[0].translation=[4,0,0];
+near(retarget(source,moved,target,{rootTranslationScale:0.5})[2].translation,[7,0,0]);
+const extra=[...target,bone('ornament',2,[0,0,4])];
+near(retarget(source,source,extra)[3].translation,[5,0,4]);
+const roundtrip=toLocal(componentSpace(posed));
+roundtrip.forEach((b,i)=>{near(b.translation,posed[i].translation);near(b.rotation,posed[i].rotation);});
+assert.equal(JSON.stringify([source,target]),unchanged);
+assert.throws(()=>retarget(source,source,[bone('root',0,[0,0,0])]),/Parent/);
+assert.throws(()=>retarget(source,source,[bone('root',-1,[0,0,0]),bone('ROOT',0,[0,0,0])]),/Duplicate/);
+assert.throws(()=>retarget(source,[...source,bone('other',0,[0,0,0])],target),/topology/);
+assert.throws(()=>retarget(source,source,target,{rootTranslationScale:0}),/scale/);
+console.log('PASS reference-pose identity, target proportions, rotated motion, scaled root translation, extra bones, local/component roundtrip, input immutability and invalid topology rejection');

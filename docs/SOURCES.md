@@ -1,14 +1,15 @@
 # 资源来源与发布边界
 
+当前决定：保留 zoneoflkf 的 PBZModLoader 作为明确署名的外部依赖，其他作者的角色脚本与动画适配独立重写。详见[第三方致谢及许可入口](../THIRD_PARTY_NOTICES.md)。下表记录历史私人组合来源，不表示表中所有内容均会公开分发。
+
 | 组件 | 上游入口 | 本基线处理 |
 | --- | --- | --- |
-| PBZModLoader 1.0.4 | https://github.com/zoneoflkf/PBZModLoader/releases/tag/v1.0.4 | 锁定原加载器与工具链文件 |
-| Map Collectible Markers 2.2.7 / UE4SS 4.0.0 安装包 | https://github.com/chenbinghan666/pbz-map-markers-installer/releases/tag/v1.0.0 | 锁定运行文件与基线设置，排除日志和追踪缓存 |
+| PBZModLoader 1.0.4 | https://github.com/zoneoflkf/PBZModLoader/releases/tag/v1.0.4 | 保留使用；GPL v3 许可文本已核对；固定下载和 SHA-256 已记录，从上游获取，保留依赖许可，不按本仓库 MIT 重新授权 |
 | 弦者、玉妖 | 原用户下载的 PlayableXianZhe / PlayableYuYaoYuu 压缩包 | 基线含后续兼容调整，不能直接用初版覆盖 |
 | 玉鼎修复、沐小葵一阶段 | 原用户下载的 YuDing ModelOnly / MuXiaoKui 包 | 修复版与定制合并状态由文件哈希确定 |
 | 白赤练、虚空原容器 | 原 MOD 容器 | 保留原资源身份，独立容器锁定 |
 | 沐小葵二阶段与衣柜扩展 | 在原有适配基础上制作的定制组合，引用本机游戏原生资产 | 当前没有独立公开资源包 URL |
-| 女性语音、头发保护、缩略图及角色修复 | 本组合的定制脚本与资源 | 按整体基线分发和验证 |
+| 女性语音、头发保护、缩略图及角色修复 | 本组合的定制脚本与资源 | 私人基线用于行为对照；公开实现分别审计或独立重写，不整包默认授权 |
 
 历史来源记录包含 Nexus Mods 条目，但部分作者/条目与归档版本的对应关系尚未完成逐项公开许可核对，所以这里不把不确定链接标成确定的精确下载地址。公开上游入口只是追溯来源，不表示下载最新版就能达到本清单状态。
 

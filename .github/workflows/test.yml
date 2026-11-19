@@ -14,3 +14,10 @@ jobs:
         with:
           python-version: '3.10'
       - run: python -m unittest discover -s tests -v
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node experimental/native-runtime/retarget.test.js
+      - run: node experimental/native-runtime/capabilities.test.js
+      - run: node experimental/native-runtime/two-bone-ik.test.js
+      - run: node experimental/native-runtime/voice-policy.test.js

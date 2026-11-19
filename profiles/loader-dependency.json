@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "name": "PBZModLoader",
+  "maintainer": "zoneoflkf",
+  "version": "1.0.4",
+  "repository": "https://github.com/zoneoflkf/PBZModLoader",
+  "release": "https://github.com/zoneoflkf/PBZModLoader/releases/tag/v1.0.4",
+  "license_url": "https://github.com/zoneoflkf/PBZModLoader/blob/v1.0.4/LICENSE",
+  "source_url": "https://github.com/zoneoflkf/PBZModLoader/tree/v1.0.4",
+  "mode": "external-unmodified-upstream-package",
+  "asset": {
+    "name": "PBZModLoader-1.0.4-win64.zip",
+    "url": "https://github.com/zoneoflkf/PBZModLoader/releases/download/v1.0.4/PBZModLoader-1.0.4-win64.zip",
+    "size": 13658497,
+    "sha256": "cc1a03bf02b8f90a2f82657ca6e0cdffcb6bf312ba2afca1dbbd80f2828a5673"
+  },
+  "evidence": "GitHub upstream release asset metadata checked 2026-11-19; release is not immutable, so verify the pinned hash"
+}

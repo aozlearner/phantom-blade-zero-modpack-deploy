@@ -8,9 +8,15 @@ Manifest-locked installation, backup, verification, and rollback for a recorded 
 
 《影之刃零》当前 MOD 组合的独立安装工程。将已验证的文件版本、衣柜清单、安装、备份、核验和回滚交给另一个 Agent 或用户执行。**这是普通 Python 项目，完全不依赖任何 Skill、特定 Agent 平台或原作者机器上的目录。**
 
-当前基线：Steam `4115450` / build `26367565`，游戏标题版本 `302256-17280`，2026-11-19，**68 个独立衣柜条目、847 个部署文件**。包含 PBZModLoader、UE4SS、角色外观、战斗语音、头发材质保护、缩略图和地图未收集物品标记。
+当前基线：Steam `4115450` / build `26367565`，游戏标题版本 `302256-17280`，2026-11-19，**68 个独立衣柜条目、812 个部署文件**。包含 PBZModLoader、角色外观、战斗语音、头发材质保护和缩略图；地图标记与 UE4SS 已从候选基线排除。
 
-这是卸载前导出的历史组合基线；维护者本机之后已将 MOD 全部备份并卸载。仓库清单保留该组合以供复现，不表示本机现在仍安装这些 MOD。847 是部署文件数量，不是 MOD 数量。
+这是卸载前导出的历史组合基线；维护者本机之后已将 MOD 全部备份并卸载。仓库清单保留该组合以供复现，不表示本机现在仍安装这些 MOD。812 是部署文件数量，不是 MOD 数量。
+
+## 公开资源整理状态
+
+正在进行[逐文件来源审计](profiles/distribution-audit.json)。当前 812 文件 ZIP 仍是私人参考快照，**尚不能作为公开完整资源包发布**。白赤练/玉妖派生网格、声音副本和继承的动画适配需要替换；仅改为本地资源路径不能自动解决代码许可。
+
+**已确定的实现边界：继续使用 [zoneoflkf 的 PBZModLoader](https://github.com/zoneoflkf/PBZModLoader)，独立重写继承的角色脚本和动画适配。** 加载器作为未修改的上游依赖保留，固定版本与 SHA-256 见 [依赖记录](profiles/loader-dependency.json)，作者、源码及 GPL 许可说明见 [第三方致谢](THIRD_PARTY_NOTICES.md)。此前失败的是游戏衣柜写表 API 的候选调用，不是 PBZModLoader 加载失败；它不会改变保留该加载器的决定。
 
 ## 先了解资源要求
 
@@ -25,7 +31,7 @@ Manifest-locked installation, backup, verification, and rollback for a recorded 
 1. 核验资源包：
 
    ```powershell
-   python -m pbzpack check-bundle --bundle "D:\ModResources\pbz-current-baseline.zip"
+   python -m pbzpack check-bundle --bundle "D:\ModResources\pbz-wardrobe-baseline.zip"
    ```
 
 2. 检查安装计划（只读，游戏运行时也可查看）：
@@ -39,7 +45,7 @@ Manifest-locked installation, backup, verification, and rollback for a recorded 
 3. 切到原版或保留的正常衣装，保存并退出游戏。安装期间保持关闭：
 
    ```powershell
-   python -m pbzpack install --game "D:\SteamLibrary\steamapps\common\PBZ" --bundle "D:\ModResources\pbz-current-baseline.zip" --state-dir "D:\PBZ-Private-Backups"
+   python -m pbzpack install --game "D:\SteamLibrary\steamapps\common\PBZ" --bundle "D:\ModResources\pbz-wardrobe-baseline.zip" --state-dir "D:\PBZ-Private-Backups"
    ```
 
    工具检查真实 Windows 进程，核验资源包，备份当前受管理 MOD 文件和存档后写入。Steam 用户数据优先通过注册表定位，失败时明确提供 `--steam-userdata "C:\Program Files (x86)\Steam\userdata"`。安装结果中的 `transaction` 是本次回滚编号，保存它。
@@ -50,7 +56,7 @@ Manifest-locked installation, backup, verification, and rollback for a recorded 
    python -m pbzpack verify --game "D:\SteamLibrary\steamapps\common\PBZ"
    ```
 
-   `matched: 847` 且 `problems: []` 表示部署文件完全匹配。之后由玩家启动游戏，按 [验证步骤](docs/VALIDATION.md) 试穿。工具不会启动游戏、加载存档或自动进行游戏测试。
+   `matched: 812` 且 `problems: []` 表示部署文件完全匹配。之后由玩家启动游戏，按 [验证步骤](docs/VALIDATION.md) 试穿。工具不会启动游戏、加载存档或自动进行游戏测试。
 
 ## 回滚
 
@@ -69,17 +75,17 @@ python -m pbzpack rollback --game "D:\SteamLibrary\steamapps\common\PBZ" --state
 只有文件已经与清单一致的参考安装才能导出：
 
 ```powershell
-python -m pbzpack export --game "D:\SteamLibrary\steamapps\common\PBZ" --bundle "D:\ModResources\pbz-current-baseline.zip"
+python -m pbzpack export --game "D:\SteamLibrary\steamapps\common\PBZ" --bundle "D:\ModResources\pbz-wardrobe-baseline.zip"
 ```
 
-导出只读取清单内文件，创建 ZIP 后逐个验证解压内容哈希。已有目标文件不会被覆盖。排除存档、运行日志、地图追踪缓存、加载器生成缓存、诊断输出及历史备份。地图显示设置和按键设置属于当前基线配置，保留在包内；玩家之后修改设置会显示为文件差异，应保留修改并单独审查，而不是直接覆盖。
+导出只读取清单内文件，创建 ZIP 后逐个验证解压内容哈希。已有目标文件不会被覆盖。排除存档、运行日志、地图追踪缓存、加载器生成缓存、诊断输出及历史备份。地图标记及其加载器不再属于本组合。
 
 ## 项目内容
 
 | 路径 | 用途 |
 | --- | --- |
 | `pbzpack/` | 命令行、清单校验、事务安装和回滚 |
-| `profiles/current.lock.json` | 847 个文件的路径、大小、SHA-256 与游戏版本 |
+| `profiles/current.lock.json` | 812 个文件的路径、大小、SHA-256 与游戏版本 |
 | `profiles/outfits.json` | 68 个衣柜 ID、名称与提供模块 |
 | `docs/AGENT_RUNBOOK.md` | 任意 Agent 的执行流程 |
 | `docs/ARCHITECTURE.md` | 动作、语音、材质、冲突与缩略图的安装约束 |

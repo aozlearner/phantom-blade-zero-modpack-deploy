@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "id": "pbz-steam-26367565-20261119-68-outfits",
+  "id": "pbz-steam-26367565-20261119-68-outfits-wardrobe-only",
   "captured_date": "2026-11-19",
   "steam_app": "4115450",
   "steam_build": "26367565",
@@ -9,181 +9,6 @@
   "asset_serializer_profile": "UE5_6",
   "wardrobe_outfits": 68,
   "files": [
-    {
-      "path": "platform/steam/dwmapi.dll",
-      "size": 279552,
-      "sha256": "21fafb3e49958e2b16721d57d5c1af3efcaaae6d91a430bb6124a67e80f5fb42"
-    },
-    {
-      "path": "platform/steam/ue4ss/LICENSE",
-      "size": 1085,
-      "sha256": "99e1d8f8b7cb68e8b2313380ae3b0c8115e39dfbc443fcf21fd67ab74ce1d57e"
-    },
-    {
-      "path": "platform/steam/ue4ss/MemberVariableLayout.ini",
-      "size": 5487,
-      "sha256": "8c5017d84c4553632b2ffba320ff62d3998b273640e302a28b60d4be98703fd0"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/BPML_GenericFunctions/Scripts/main.lua",
-      "size": 2950,
-      "sha256": "df87c361cdfc231ac8017ff9b930c323fac09f436ca4c41d48e952ff4b38d38f"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/BPModLoaderMod/load_order.txt",
-      "size": 265,
-      "sha256": "e260b9b0d8d472ee3ebab77204c838f3d2aad8a9d5f08b9b8cb6b42b7b5418b9"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/BPModLoaderMod/Scripts/main.lua",
-      "size": 11256,
-      "sha256": "40d02e6ca9441913b6be5f3c9b78c10af5769ba62f35d77f76e8c1e56e77ebd7"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/CheatManagerEnablerMod/Scripts/main.lua",
-      "size": 1439,
-      "sha256": "15c7722168eb8966ed454e900e04de4b0ade42657905d8016c0e0660c119cd9e"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/ConsoleCommandsMod/Scripts/dump_object.lua",
-      "size": 13093,
-      "sha256": "365b7e8a803f8ae917f54f6c852854c681e388227dd1f94b0ea3f6fb938b5086"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/ConsoleCommandsMod/Scripts/main.lua",
-      "size": 297,
-      "sha256": "5bf33cd4ef9f6a155fe5f7842218a6486c2c227858ffd99806e75d81d0da9f27"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/ConsoleCommandsMod/Scripts/set.lua",
-      "size": 2056,
-      "sha256": "876e7de49f0e30a4329c081472bc7d5e1948459c774b7abbb8be4b6323f16ec8"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/ConsoleCommandsMod/Scripts/summon_unloaded_assets.lua",
-      "size": 489,
-      "sha256": "194b557404b6078767f8b57b836aa44d084cf6f3f2cbde71a6831857567f8103"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/ConsoleEnablerMod/Scripts/main.lua",
-      "size": 4596,
-      "sha256": "4455bf19d498b74747ea17e61e118464fa3a010b8ecfebc9c92804ecb73357ab"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/Keybinds/Scripts/main.lua",
-      "size": 4190,
-      "sha256": "297dd6f7f560e1cebc15cd4509ad481495d9179f5758a8034be4c417a369803a"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/LineTraceMod/Scripts/main.lua",
-      "size": 2721,
-      "sha256": "05c181a5cc3cb24e0bd7496d6bbc14a1111d0a1e731a2526203b41b07d972dae"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/mods.txt",
-      "size": 220,
-      "sha256": "023e06aca051278eace08bf0bbb565263d6e0e8b94c5b45bda832706d9d009ac"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/PBZMapMarkers/enabled.txt",
-      "size": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/PBZMapMarkers/pad.txt",
-      "size": 383,
-      "sha256": "0c2cd5e3b5fc0b2f0985e2ebf078276d7d373fa885f94c5e6ffb3e1cc7c7c014"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/PBZMapMarkers/PBZMapMarkers.config.json",
-      "size": 550,
-      "sha256": "b165445df09e204532a6c20ad0dd19df9291eca33a805f3aa132509b55c43465"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/PBZMapMarkers/PBZMapMarkers.modsmenu.json",
-      "size": 13892,
-      "sha256": "2692c45a73f367d9d7f06c7945ce993e42d7702a3cb80d6ab1999f3e12c1619e"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/PBZMapMarkers/README.txt",
-      "size": 16977,
-      "sha256": "97654c59e2cc8d183ad4916332c75983e36414763ff871f61af12f8a53010bee"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/PBZMapMarkers/Scripts/core.lua",
-      "size": 79300,
-      "sha256": "7e9547ca668d6d7692ab31dadbb583708d36cc090ec3327c423c4cfeeabc71cf"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/PBZMapMarkers/Scripts/data.lua",
-      "size": 236959,
-      "sha256": "9c88afd800701d4a94e84cc1d7f3ea3fb3635fda942c807ce908a5579305d81c"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/PBZMapMarkers/Scripts/fog.lua",
-      "size": 14039,
-      "sha256": "5227b9e621761523d41ae044da0b38bd49cd9f3b8c80d76cabe83729267c8f30"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/PBZMapMarkers/Scripts/lang.lua",
-      "size": 6774,
-      "sha256": "82ab17d0a2793d041267c3c19bebd80bf7f8ee14e162c14e540de9cd98c878c1"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/PBZMapMarkers/Scripts/main.lua",
-      "size": 2649,
-      "sha256": "4a3501fd190519cac4d3f2185fea283f4670d7a7d01a40cc0fa8e200e0d17d3b"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/PBZMapMarkers/Scripts/pad.lua",
-      "size": 7192,
-      "sha256": "046dfdaad3a4781c25110c0e9e90b790d21e60908a048c62c4709a3489092cd5"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/PBZMapMarkers/Scripts/track.lua",
-      "size": 22601,
-      "sha256": "c6b7861b268b8b3a140bdae68227d7ab9fc7bfee0684a6d3a695ac80357af72c"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/PBZMapMarkers/Scripts/ui.lua",
-      "size": 15647,
-      "sha256": "904ddb08592f6dda5fedbcd4e8e4847c8c20a7325002f354776280ff65981dff"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/shared/UEHelpers/UEHelpers.lua",
-      "size": 10237,
-      "sha256": "7476f02eef0c87bfeab169f2ffe2e704363faeaae4bf9f1bda574b1e34f4a0e9"
-    },
-    {
-      "path": "platform/steam/ue4ss/Mods/SplitScreenMod/Scripts/main.lua",
-      "size": 4380,
-      "sha256": "05094ab61f016ebfcb651a0271a4c614884881b847090e6a74e6a51754e088db"
-    },
-    {
-      "path": "platform/steam/ue4ss/UE4SS-settings.ini",
-      "size": 9555,
-      "sha256": "c96a3b1ac2f29f4aca3c72198eb557075ee30fc1d1186c332a025a8d2e66bd48"
-    },
-    {
-      "path": "platform/steam/ue4ss/UE4SS.dll",
-      "size": 20713984,
-      "sha256": "3843d81a8280096b0de3c750eebf15507e374c250dc551cbf07e7be7acc1e2ba"
-    },
-    {
-      "path": "platform/steam/ue4ss/UE4SS_SDK_Backends/UE4SS.json",
-      "size": 8032,
-      "sha256": "6b8c1725ff59a318b812d5952f63107778b4ceb22b882b297a3666ee9e06c8ff"
-    },
-    {
-      "path": "platform/steam/ue4ss/UE4SS_Signatures/GNatives.lua",
-      "size": 1162,
-      "sha256": "c7ba42f56c04c784217cbf5b50ffc11f8e66aa246df5813321c4d4a7a06d6598"
-    },
-    {
-      "path": "platform/steam/ue4ss/UE4SS_Signatures/GUObjectArray.lua",
-      "size": 891,
-      "sha256": "0066ca60427679e1b9d86d18857eaab61047c0e6959a45a863d9f9dd3cb7efce"
-    },
     {
       "path": "platform/steam/version.dll",
       "size": 1843200,
@@ -4244,5 +4069,9 @@
       "size": 15141,
       "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee"
     }
+  ],
+  "excluded_components": [
+    "Map Collectible Markers",
+    "UE4SS"
   ]
 }

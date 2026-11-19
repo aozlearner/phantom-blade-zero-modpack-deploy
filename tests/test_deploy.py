@@ -228,7 +228,8 @@ class PublicProfileTests(unittest.TestCase):
         self.assertFalse(any("Saved/" in x or "generated-mods" in x or x.endswith(".log") for x in paths))
         self.assertFalse(any(x.endswith(("/log.txt", "/track.txt", "/fogcache.txt")) for x in paths))
         self.assertIn("platform/steam/version.dll", paths)
-        self.assertIn("platform/steam/dwmapi.dll", paths)
+        self.assertNotIn("platform/steam/dwmapi.dll", paths)
+        self.assertFalse(any(x.startswith("platform/steam/ue4ss/") for x in paths))
 
 
 if __name__ == "__main__":
