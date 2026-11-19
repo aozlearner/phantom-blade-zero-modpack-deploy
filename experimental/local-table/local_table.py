@@ -165,4 +165,3 @@ def compare(a,b,path=''):
         import math
         if not isinstance(b,(int,float)) or not math.isclose(a,b,rel_tol=1e-6,abs_tol=1e-7):raise AssertionError('Float differs at '+path)
     elif type(a)!=type(b) or a!=b:raise AssertionError('Value differs at '+path+': '+repr(a)+' != '+repr(b))
-

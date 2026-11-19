@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "scope": "Explicit wardrobe IDs and current-player combat events only",
+  "prefer_character_own_voice": true,
+  "fallback": {
+    "female": "muxiaokui",
+    "male": "hun"
+  },
+  "male_fallback_playback": "Keep the original Hun event; do not post a duplicate",
+  "original_outfits": "Unchanged native Hun voice",
+  "dialogue_and_cutscenes": "Unchanged",
+  "npc_audio": "Unchanged",
+  "combat_categories": ["attack", "heavy", "charge", "hurt", "hurtHeavy", "break", "effort"],
+  "full_engine_integration_verified": false
+}

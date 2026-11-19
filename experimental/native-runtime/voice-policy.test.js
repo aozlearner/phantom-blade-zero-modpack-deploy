@@ -43,4 +43,25 @@ const faulty=createRouter({femaleOutfits:new Map([['female-own','mu']]),profiles
  stop:()=>{if(stopFails)throw Error('Adapter error');},onStopError:id=>errors.push(id)});
 faulty.route(input);faulty.dispose();assert.deepEqual(errors,[90]);
 stopFails=false;faulty.dispose();faulty.dispose();assert.deepEqual(errors,[90]);
-console.log('Voice policy: own/fallback, reactions/effort, NPC/dialogue/original isolation, failed posts, lane ownership and cleanup passed');
+{
+ const calls=[],ended=[];let failed=false;
+ const r=createRouter({outfitProfiles:new Map([
+  ['woman',{character:'woman',gender:'female'}],['man',{character:'man',gender:'male'}],['male-missing',{character:'absent',gender:'male'}],['young-hun',{character:'hun',gender:'male'}]
+ ]),profiles:{woman:{attack:['woman-attack']},man:{attack:['man-attack']},mu:{attack:['mu-attack'],hurt:['mu-hurt']}},fallbackCharacter:'mu',
+ sourceCategories:new Map([['native-hit','attack'],['native-hurt','hurt']]),play:event=>{calls.push(event);return failed?0:101;},stop:id=>ended.push(id)});
+ assert.equal(r.route({...input,outfit:'man'}).event,'man-attack');
+ let result=r.route({...input,outfit:'man',source:'native-hurt'});
+ assert.equal(result.replace,false);assert.equal(result.character,'hun');assert.equal(result.reason,'native-fallback');
+ assert.deepEqual(calls,['man-attack']);assert.deepEqual(ended,[101]);
+ assert.equal(r.route({...input,outfit:'woman',source:'native-hurt'}).event,'mu-hurt');
+ const count=calls.length;
+ for(const outfit of ['male-missing','young-hun'])assert.equal(r.route({...input,outfit}).character,'hun');
+ assert.equal(calls.length,count,'Male fallback uses native playback without a duplicate post');
+ failed=true;assert.equal(r.route({...input,outfit:'man'}).character,'hun');
+ assert.equal(calls.at(-1),'man-attack','Male fallback must never post Mu');
+ assert.equal(r.route({...input,outfit:'man',source:'story-dialogue'}).replace,false);
+ assert.equal(r.route({...input,outfit:'original'}).replace,false);
+ r.dispose();
+}
+assert.throws(()=>createRouter({outfitProfiles:new Map([['unknown',{character:'someone'}]]),profiles:{},sourceCategories:new Map(),play:()=>1,stop:()=>{}}),/gender/);
+console.log('Voice policy: own voice, female-to-Mu/male-to-native-Hun fallback, reactions, isolation, failed posts and cleanup passed');

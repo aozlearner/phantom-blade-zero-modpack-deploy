@@ -27,6 +27,19 @@
         "Six native path references verified against the retained live scan; asset binaries not included"
       ],
       "integration": "Called only by the controlled Yu Er renderer; native mesh and hair component checks still required in replacement renderer"
+    },
+    {
+      "path": "runtime/reused/voice/Catalog.js",
+      "baseline_path": "ProjectPBZ/PBZModLoader/mods/pbz-female-attack-voice/Catalog.js",
+      "sha256": "86dd22da9122892ca17fff5d997f81ad77d8a4d8a64dbf7ac400b96fb30fb72a",
+      "mode": "byte-identical",
+      "evidence": [
+        "Project-authored multi-character catalog introduced for per-outfit voice selection and extended during subsequent reaction-voice fixes",
+        "Matches the latest reviewed baseline byte for byte",
+        "Character classifier, own-or-Mu selection and reaction fallback are distinct from the original Bai single-character fixed voice map",
+        "The inherited fixed ReferenceMap is not reused; an empty compatibility input makes the catalog depend on the local game registry"
+      ],
+      "integration": "Local event discovery and selection only; the inherited playback hooks are not shipped and still require replacement."
     }
   ],
   "factual_configuration": {

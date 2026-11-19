@@ -20,8 +20,15 @@ function candidates(profile,category,isFallback){
  }
  return [];
 }
-function createRouter({femaleOutfits,profiles,fallbackCharacter,sourceCategories,play,stop,random=Math.random,onStopError=()=>{}}){
- if(!(femaleOutfits instanceof Map)||!(sourceCategories instanceof Map))throw Error('Explicit outfit and event maps required');
+function createRouter({outfitProfiles,femaleOutfits,profiles,fallbackCharacter='muxiaokui-p1',nativeMaleCharacter='hun',sourceCategories,play,stop,random=Math.random,onStopError=()=>{}}){
+ // Keep the older female-only caller usable while the full roster is migrated.
+ const configured=outfitProfiles||(femaleOutfits instanceof Map?new Map([...femaleOutfits].map(([id,character])=>[id,{character,gender:'female'}])):null);
+ if(!(configured instanceof Map)||!(sourceCategories instanceof Map))throw Error('Explicit outfit and event maps required');
+ const outfits=new Map();
+ for(const [id,spec] of configured){
+  if(typeof id!=='string'||!id||!spec||typeof spec.character!=='string'||!spec.character||!['female','male'].includes(spec.gender))throw Error('Outfit character and gender are required');
+  outfits.set(id,Object.freeze({...spec}));
+ }
  if(typeof play!=='function'||typeof stop!=='function')throw Error('Audio adapter required');
  let lane=null,disposed=false;
  const retiring=new Set();
@@ -44,12 +51,16 @@ function createRouter({femaleOutfits,profiles,fallbackCharacter,sourceCategories
   synchronize({actor:player,outfit,inSequence});
   // Unknown sequence state must not suppress original speech.
   if(!actor||actor!==player||inSequence!==false)return {replace:false,reason:'scope'};
-  const character=femaleOutfits.get(outfit),category=sourceCategories.get(source);
-  if(!character||!categories.has(category))return {replace:false,reason:'unmanaged'};
+  const spec=outfits.get(outfit),category=sourceCategories.get(source);
+  if(!spec||!categories.has(category))return {replace:false,reason:'unmanaged'};
+  const {character,gender}=spec;
+  if(gender==='male'&&character===nativeMaleCharacter){finish();return {replace:false,reason:'native-fallback',character:nativeMaleCharacter,category};}
   // At most one own attempt and one fallback attempt; no broad audio interception.
   const groups=[{who:character,events:candidates(profiles[character],category,false)}];
-  if(character!==fallbackCharacter)groups.push({who:fallbackCharacter,events:candidates(profiles[fallbackCharacter],category,true)});
-  else groups[0].events=candidates(profiles[character],category,true);
+  if(gender==='female'){
+   if(character!==fallbackCharacter)groups.push({who:fallbackCharacter,events:candidates(profiles[fallbackCharacter],category,true)});
+   else groups[0].events=candidates(profiles[character],category,true);
+  }
   for(const group of groups){
    if(!group.events.length)continue;
    const r=random();
@@ -61,6 +72,10 @@ function createRouter({femaleOutfits,profiles,fallbackCharacter,sourceCategories
    // Only a confirmed successful post can replace original playback.
    finish();lane={id,actor,outfit};
    return {replace:true,id,event,character:group.who,category};
+  }
+  if(gender==='male'){
+   // Let the original Hun event play; do not layer a duplicate post over it.
+   finish();return {replace:false,reason:'native-fallback',character:nativeMaleCharacter,category};
   }
   return {replace:false,reason:'unavailable'};
  }

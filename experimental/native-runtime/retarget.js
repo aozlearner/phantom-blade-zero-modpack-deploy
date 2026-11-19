@@ -9,6 +9,7 @@ function multiply(a,b){
  return unit([w*X+x*W+y*Z-z*Y,w*Y-x*Z+y*W+z*X,w*Z+x*Y-y*X+z*W,w*W-x*X-y*Y-z*Z]);
 }
 function inverse(q){const [x,y,z,w]=unit(q);return [-x,-y,-z,w];}
+function scale(b){const s=b.scale===undefined?[1,1,1]:vector(b.scale,3);if(s.some(x=>x<=EPS))throw Error('Positive nonzero bone scale required');return s;}
 function rotate(q,v){
  vector(v,3);const [x,y,z,w]=unit(q),[a,b,c]=v;
  const t=[2*(y*c-z*b),2*(z*a-x*c),2*(x*b-y*a)];
@@ -21,25 +22,27 @@ function validate(bones){
   if(typeof b.name!=='string'||!b.name||names.has(b.name.toLowerCase()))throw Error('Duplicate bone');
   names.add(b.name.toLowerCase());
   if(!Number.isInteger(b.parent)||b.parent<-1||b.parent>=i)throw Error('Parent must precede child');
-  vector(b.translation,3);unit(b.rotation);
+  vector(b.translation,3);unit(b.rotation);scale(b);
  });
 }
 function componentSpace(local){
  validate(local);const result=[];
  for(const b of local){
   const parent=result[b.parent];
-  const t=parent?rotate(parent.rotation,b.translation).map((x,i)=>x+parent.translation[i]):[...b.translation];
+  const t=parent?rotate(parent.rotation,b.translation.map((x,i)=>x*parent.scale[i])).map((x,i)=>x+parent.translation[i]):[...b.translation];
   const q=parent?multiply(parent.rotation,b.rotation):unit(b.rotation);
-  result.push({name:b.name,parent:b.parent,translation:t,rotation:q});
+  const s=scale(b).map((x,i)=>x*(parent?parent.scale[i]:1));
+  result.push({name:b.name,parent:b.parent,translation:t,rotation:q,scale:s});
  }
  return result;
 }
 function toLocal(component){
  validate(component);
  return component.map(b=>{
-  if(b.parent<0)return {...b,translation:[...b.translation],rotation:unit(b.rotation)};
+  if(b.parent<0)return {...b,translation:[...b.translation],rotation:unit(b.rotation),scale:[...scale(b)]};
   const p=component[b.parent],inv=inverse(p.rotation);
-  return {name:b.name,parent:b.parent,translation:rotate(inv,b.translation.map((x,i)=>x-p.translation[i])),rotation:multiply(inv,b.rotation)};
+  const ps=scale(p);
+  return {name:b.name,parent:b.parent,translation:rotate(inv,b.translation.map((x,i)=>x-p.translation[i])).map((x,i)=>x/ps[i]),rotation:multiply(inv,b.rotation),scale:scale(b).map((x,i)=>x/ps[i])};
  });
 }
 function retarget(sourceReference,sourcePose,targetReference,{rootTranslationScale=1}={}){
@@ -49,12 +52,13 @@ function retarget(sourceReference,sourcePose,targetReference,{rootTranslationSca
  const index=new Map(sourceReference.map((b,i)=>[b.name.toLowerCase(),i]));
  const local=targetReference.map(b=>{
   const i=index.get(b.name.toLowerCase());
-  if(i===undefined)return {...b,translation:[...b.translation],rotation:unit(b.rotation)};
+  if(i===undefined)return {...b,translation:[...b.translation],rotation:unit(b.rotation),scale:[...scale(b)]};
   const rest=sourceReference[i],pose=sourcePose[i];
   const rotation=multiply(b.rotation,multiply(inverse(rest.rotation),pose.rotation));
   // Preserve target segment lengths. Translation is propagated only for roots.
   const translation=b.translation.map((x,j)=>x+(b.parent===-1?(pose.translation[j]-rest.translation[j])*rootTranslationScale:0));
-  return {name:b.name,parent:b.parent,translation,rotation};
+  const s=scale(b).map((x,j)=>x*scale(pose)[j]/scale(rest)[j]);
+  return {name:b.name,parent:b.parent,translation,rotation,scale:s};
  });
  return componentSpace(local);
 }

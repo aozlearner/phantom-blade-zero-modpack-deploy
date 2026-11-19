@@ -19,6 +19,7 @@ jobs:
         with:
           node-version: '20'
       - run: node experimental/native-runtime/retarget.test.js
+      - run: node experimental/native-runtime/pose-driver.test.js
       - run: node experimental/native-runtime/capabilities.test.js
       - run: node experimental/native-runtime/two-bone-ik.test.js
       - run: node experimental/native-runtime/voice-policy.test.js
@@ -26,3 +27,4 @@ jobs:
       - run: node runtime/reused/YuErControlledMaterials.test.js
       - run: node runtime/ownership.test.js
       - run: node runtime/reuse-audit.test.js
+      - run: node runtime/reused/voice/Catalog.test.js

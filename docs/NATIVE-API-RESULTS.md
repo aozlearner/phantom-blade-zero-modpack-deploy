@@ -31,6 +31,16 @@ Direct in-memory row writes remain unavailable in the tested forms. Player-local
 
 This evidence does not validate retargeting, grip, face animation, clothing, voice routing or portraits for the 68 outfits. The private reference bundle remains separate from the unfinished public replacement.
 
+## Private pose-driver readback
+
+The independent FK adapter was connected to native reflected component APIs and tested using a hidden, collision-disabled private actor in the title world. The source was a private Hun poseable component; the real player was not modified.
+
+An initial unit-scale-only adapter passed Hun (301 bones) and Mu Xiao Kui P2 (1008 bones), then correctly refused Young Zuo Shang's scaled reference bones. After adding positive bone-scale propagation and regression tests, a batched test passed **51 unique native body assets**, covering the current 52 normalized outfit configurations plus the source/extra representative bodies (some outfits share a body).
+
+The test translated the source root 25 cm and rotated it 20 degrees, applied the calculated target poses, then read back position, rotation and scale for every target bone after an engine update. Maximum position error was about `0.000027 cm`; maximum quaternion component norm error was below `0.00000005`, and maximum scale error below `0.00000006`. All 51 results explicitly reported success; none were inferred merely from probe completion.
+
+This validates API writes and reads of these calculated poses, including native scale. It does not validate independently articulated source limbs, weapon contact, animation performance, visible materials, facial curves, cloth, groom binding or cutscenes. Zero/negative bone scales are still rejected. Both pose-probe sessions ended with the game closed, temporary files backed up and removed, no progress/cloud save changes, and zero active MOD files.
+
 ## 中文说明
 
 正式版允许读取衣柜表，但 JSON 写接口明确返回“Shipping 不可用”；另一个新增行接口返回失败，不能直接把 SDK 声明当作可用能力。原生骨骼接口只做了基本调用检查，尚不能证明角色动作或附件正确。
