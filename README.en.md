@@ -25,6 +25,8 @@ A [per-file provenance audit](profiles/distribution-audit.json) is in progress. 
 
 **Implementation decision: retain [PBZModLoader by zoneoflkf](https://github.com/zoneoflkf/PBZModLoader) and independently implement the inherited character scripts and animation adaptation.** The unmodified upstream loader remains an external dependency. See the [pinned release and SHA-256](profiles/loader-dependency.json) and [third-party acknowledgements, source and GPL notice](THIRD_PARTY_NOTICES.md). Failed candidate game DataTable write calls do not indicate loader failure and do not change this dependency decision.
 
+**Our own existing implementation may be reused; this is not a full rewrite.** The authored hair guard is retained unchanged and passes offline regression checks for the current 68-outfit roster. Native resource paths and assembly settings for 52 outfits are preserved as configuration. Other modules are reviewed by provenance, as described in the [reuse and replacement plan](docs/REUSE-PLAN.md). These results do not constitute a complete installable replacement pack.
+
 ## Asset requirement
 
 **Cloning this repository alone cannot install the complete modpack.** You also need a legally accessible matching game and the separate asset ZIP matching `profiles/current.lock.json`. That custom bundle currently has **no public download URL**. Original upstream downloads are not drop-in replacements for the combined, adapted baseline.

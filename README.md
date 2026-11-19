@@ -18,6 +18,8 @@ Manifest-locked installation, backup, verification, and rollback for a recorded 
 
 **已确定的实现边界：继续使用 [zoneoflkf 的 PBZModLoader](https://github.com/zoneoflkf/PBZModLoader)，独立重写继承的角色脚本和动画适配。** 加载器作为未修改的上游依赖保留，固定版本与 SHA-256 见 [依赖记录](profiles/loader-dependency.json)，作者、源码及 GPL 许可说明见 [第三方致谢](THIRD_PARTY_NOTICES.md)。此前失败的是游戏衣柜写表 API 的候选调用，不是 PBZModLoader 加载失败；它不会改变保留该加载器的决定。
 
+**我们自己写的旧实现可以继续沿用，不做全量重写。** 已原样保留头发保护源码并通过当前 68 项衣装的离线回归检查，52 项角色的原生资源路径和装配参数已整理为配置。其他模块逐项区分原创、继承与混合部分，详见[复用与替换计划](docs/REUSE-PLAN.md)。这些进展尚不构成完整可安装的新 MOD 包。
+
 ## 先了解资源要求
 
 仓库提供 MIT 许可的**安装工具、锁定清单和文档**，不包含游戏模型、音频、第三方 MOD 二进制、玩家存档或日志。完整资源包须单独取得；目前定制组合没有公开下载地址。**只克隆仓库还不能安装完整组合，也不能仅下载几个上游原版来替代定制资源包。**

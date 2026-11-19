@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "policy": "Reuse verified project-authored implementation; review inherited code individually; retained PBZModLoader is an upstream licensed dependency",
+  "reused": [
+    {
+      "path": "runtime/reused/HairMaterialGuard.js",
+      "baseline_path": "ProjectPBZ/PBZModLoader/mods/pbz-wardrobe-expansion/HairMaterialGuard.js",
+      "sha256": "7247d1a5800529bf2ca7334ff5e734ddb6c254dc8a4d00b3a907ad5864538832",
+      "mode": "byte-identical",
+      "evidence": [
+        "Project-specific hair-color fix developed during the November 18 repair",
+        "Preparation script copies the dedicated authored HairMaterialGuard source into the install candidate",
+        "Latest baseline extends the supported roster and Young Hun hair exception",
+        "Existing behavioral regression tests ported to the current outfit roster"
+      ],
+      "integration": "Use create/step/dispose with an owned scheduler; the old start helper has no stop method"
+    },
+    {
+      "path": "runtime/reused/YuErControlledMaterials.js",
+      "baseline_path": "ProjectPBZ/PBZModLoader/mods/pbz-wardrobe-expansion/PBZYuErControlledMaterials.js",
+      "sha256": "4d1ead84b44f8f82f1162d69af691c58a655b12eb0b868be15084c11e5a3ea3e",
+      "mode": "byte-identical",
+      "evidence": [
+        "Matches the authored November 17 material slot fix source exactly",
+        "Preparation script installed this single new helper",
+        "Regression case reproduces the observed P2 body slot mismatch",
+        "Six native path references verified against the retained live scan; asset binaries not included"
+      ],
+      "integration": "Called only by the controlled Yu Er renderer; native mesh and hair component checks still required in replacement renderer"
+    }
+  ],
+  "factual_configuration": {
+    "path": "profiles/native-models.partial.json",
+    "outfits": 52,
+    "remaining": 16,
+    "contains_assets": false
+  },
+  "comparison": {
+    "reference_scripts": 65,
+    "baseline_scripts": 664,
+    "byte_text_matches": 318,
+    "rename_normalized_matches": 128,
+    "unmatched_is_not_proof_of_authorship": true
+  },
+  "complete_native_pack_ready": false
+}

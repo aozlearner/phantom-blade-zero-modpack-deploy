@@ -1,0 +1,1999 @@
+{
+  "schema": 1,
+  "status": "partial-factual-configuration-not-an-installable-pack",
+  "models": [
+    {
+      "key": "YoungZuoShang",
+      "id": "Hun_OutFit_Boss_YoungZuoShang",
+      "name": "少年左殇",
+      "body": "/HuaShira/Characters/Hero/Young_ZuoShang/skinParts/ZuoShang_Young_Body.ZuoShang_Young_Body",
+      "head": "/HuaShira/Characters/Hero/Young_ZuoShang/skinParts/ZuoShang_Young_Head.ZuoShang_Young_Head",
+      "skeleton": "/HuaShira/Characters/Hero/Young_ZuoShang/ZuoShang_Young_Skeleton.ZuoShang_Young_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Hero/Young_ZuoShang/Cloth/CA_SM_ZuoShang_Young_cloth.CA_SM_ZuoShang_Young_cloth",
+        "/HuaShira/Characters/Hero/Young_ZuoShang/Cloth/CA_SM_ZuoShang_Young_cloth01.CA_SM_ZuoShang_Young_cloth01",
+        "/HuaShira/Characters/Hero/Young_ZuoShang/skinParts/CA_ZuoShang_young_Hair01.CA_ZuoShang_young_Hair01"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/Hero/Young_ZuoShang/skinParts/ZuoShang_young_BrowLashCard.ZuoShang_young_BrowLashCard",
+          "leader": "head",
+          "materials": [
+            "/Game/PBZContent/Characters/Hero/Hun_Young/Material/V02/Hair/MI_HunYoung_Eyebrows.MI_HunYoung_Eyebrows",
+            "/Game/PBZContent/Characters/NPC/ZhengDaoDuiZhang_01/Material/MI_NPC_ZhengDaoDuiZhang_01_Lash.MI_NPC_ZhengDaoDuiZhang_01_Lash"
+          ]
+        }
+      ],
+      "grooms": [
+        {
+          "role": "groom-ZuoShang_Young_Bang",
+          "asset": "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Hair_V02/ZuoShang_Young_Bang.ZuoShang_Young_Bang",
+          "binding": "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Hair_V02/GB_ZuoShang_Young_Bang.GB_ZuoShang_Young_Bang"
+        },
+        {
+          "role": "groom-ZuoShang_Young_Brow",
+          "asset": "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Hair_V02/ZuoShang_Young_Brow.ZuoShang_Young_Brow",
+          "binding": "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Hair_V02/GB_ZuoShang_Young_Brow.GB_ZuoShang_Young_Brow"
+        },
+        {
+          "role": "groom-ZuoShang_Young_Lash",
+          "asset": "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Hair_V02/ZuoShang_Young_Lash.ZuoShang_Young_Lash",
+          "binding": "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Hair_V02/GB_ZuoShang_Young_Lash.GB_ZuoShang_Young_Lash"
+        },
+        {
+          "role": "groom-ZuoShang_Young_Main",
+          "asset": "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Hair_V02/ZuoShang_Young_Main.ZuoShang_Young_Main",
+          "binding": "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Hair_V02/GB_ZuoShang_Young_Main.GB_ZuoShang_Young_Main"
+        },
+        {
+          "role": "groom-ZuoShang_Young_Messy",
+          "asset": "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Hair_V02/ZuoShang_Young_Messy.ZuoShang_Young_Messy",
+          "binding": "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Hair_V02/GB_ZuoShang_Young_Messy.GB_ZuoShang_Young_Messy"
+        },
+        {
+          "role": "groom-ZuoShang_Young_Tip",
+          "asset": "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Hair_V02/ZuoShang_Young_Tip.ZuoShang_Young_Tip",
+          "binding": "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Hair_V02/GB_ZuoShang_Young_Tip.GB_ZuoShang_Young_Tip"
+        }
+      ],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_ZuoShang_Young_Tutorial_w.T_BP_Monster_ZuoShang_Young_Tutorial_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/055_ZuoShang_Young/BP_Monster_ZuoShang_Young_Tutorial.BP_Monster_ZuoShang_Young_Tutorial_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Material/V02/MI_NPC_ZuoShang_Young_Skin.MI_NPC_ZuoShang_Young_Skin",
+        "/Game/PBZContent/Characters/NPC/Lefthurt_Boy/Material/V02/MI_NPC_ZuoShang_Young_Cloths.MI_NPC_ZuoShang_Young_Cloths"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "ZuoShang",
+      "id": "Hun_OutFit_Boss_ZuoShang",
+      "name": "左殇·冥主",
+      "body": "/HuaShira/Characters/Hero/ZuoShang/SkinParts/ZuoShang_Body.ZuoShang_Body",
+      "head": "/HuaShira/Characters/Hero/ZuoShang/SkinParts/ZuoShang_Head.ZuoShang_Head",
+      "skeleton": "/HuaShira/Characters/Hero/ZuoShang/ZuoShang_Skeleton.ZuoShang_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Hero/ZuoShang/SkinParts/CA_ZuoShang_Cloth01.CA_ZuoShang_Cloth01",
+        "/HuaShira/Characters/Hero/ZuoShang/SkinParts/CA_ZuoShang_PartCloth01.CA_ZuoShang_PartCloth01",
+        "/HuaShira/Characters/Hero/ZuoShang/SkinParts/Cloth/CA_ZuoShang_P2_Hair01.CA_ZuoShang_P2_Hair01"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/Hero/ZuoShang/SkinParts/ZuoShang_BrowLashCard.ZuoShang_BrowLashCard",
+          "leader": "head",
+          "materials": [
+            "/Game/PBZContent/Characters/NPC/ZhengDaoDuiZhang_01/Material/MI_NPC_ZhengDaoDuiZhang_01_Lash.MI_NPC_ZhengDaoDuiZhang_01_Lash",
+            "/Game/PBZContent/Characters/Hero/Hun_Young/Material/V02/Hair/MI_HunYoung_Eyebrows.MI_HunYoung_Eyebrows"
+          ]
+        }
+      ],
+      "grooms": [
+        {
+          "role": "groom-EliteBoss_ZuoShang_Brow01",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair01/EliteBoss_ZuoShang_Brow01.EliteBoss_ZuoShang_Brow01",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair01/EliteBoss_ZuoShang_Brow01_ZuoShang_Head_Binding.EliteBoss_ZuoShang_Brow01_ZuoShang_Head_Binding"
+        },
+        {
+          "role": "groom-EliteBoss_ZuoShang_Lash01",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair01/EliteBoss_ZuoShang_Lash01.EliteBoss_ZuoShang_Lash01",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair01/EliteBoss_ZuoShang_Lash01_ZuoShang_Head_Binding.EliteBoss_ZuoShang_Lash01_ZuoShang_Head_Binding"
+        },
+        {
+          "role": "groom-ZuoShang_HairGroom_01",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair02/V02/ZuoShang_HairGroom_01.ZuoShang_HairGroom_01",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair02/V02/ZuoShang_HairGroom_01_ZuoShang_Head_Binding.ZuoShang_HairGroom_01_ZuoShang_Head_Binding"
+        },
+        {
+          "role": "groom-ZuoShang_HairGroom_02",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair02/V02/ZuoShang_HairGroom_02.ZuoShang_HairGroom_02",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair02/V02/ZuoShang_HairGroom_02_ZuoShang_Head_Binding.ZuoShang_HairGroom_02_ZuoShang_Head_Binding"
+        },
+        {
+          "role": "groom-ZuoShang_HairGroom_03",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair02/V02/ZuoShang_HairGroom_03.ZuoShang_HairGroom_03",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair02/V02/ZuoShang_HairGroom_03_ZuoShang_Head_Binding.ZuoShang_HairGroom_03_ZuoShang_Head_Binding"
+        }
+      ],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_ZuoShang_w.T_BP_Monster_ZuoShang_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/054_ZuoShang/BP_Monster_ZuoShang.BP_Monster_ZuoShang_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Material/MI_EliteBoss_Zuoshang_Body.MI_EliteBoss_Zuoshang_Body",
+        "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Material/MI_EliteBoss_Zuoshang_Armor.MI_EliteBoss_Zuoshang_Armor",
+        "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Material/MI_EliteBoss_Zuoshang_Fabric.MI_EliteBoss_Zuoshang_Fabric"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "ZuoShangLongTi",
+      "id": "Hun_OutFit_Boss_ZuoShangLongTi",
+      "name": "左殇·真龙之躯",
+      "body": "/HuaShira/Characters/EliteBoss/ZuoShang_LongTi/SkinParts/ZuoShang_LongTi_Body.ZuoShang_LongTi_Body",
+      "head": "/HuaShira/Characters/EliteBoss/ZuoShang_LongTi/SkinParts/ZuoShang_LongTi_Head.ZuoShang_LongTi_Head",
+      "skeleton": "/HuaShira/Characters/EliteBoss/ZuoShang_LongTi/ZuoShang_LongTi_Skeleton.ZuoShang_LongTi_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteBoss/ZuoShang_LongTi/SkinParts/CA_ZuoShang_LongTi_Cloth01.CA_ZuoShang_LongTi_Cloth01",
+        "/HuaShira/Characters/EliteBoss/ZuoShang_LongTi/SkinParts/CA_ZuoShang_LongTi_Hair01.CA_ZuoShang_LongTi_Hair01"
+      ],
+      "extraParts": [],
+      "grooms": [
+        {
+          "role": "groom-LongTiZuoShang_GroomHair13",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/LongTiZuoShang/Mesh/LongTiZuoShang_GroomHair13.LongTiZuoShang_GroomHair13",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/LongTiZuoShang/Mesh/LongTiZuoShang_GroomHair13_ZuoShang_LongTi_Head_ZuoShang_LongTi_Head_Binding.LongTiZuoShang_GroomHair13_ZuoShang_LongTi_Head_ZuoShang_LongTi_Head_Binding"
+        }
+      ],
+      "bodyScale": 0.7738,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_ZuoShang_P2_w.T_BP_Monster_ZuoShang_P2_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/076_ZuoShang_P2/BP_Monster_ZuoShang_P2.BP_Monster_ZuoShang_P2_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteBoss/LongTiZuoShang/Material/P2/MI_EliteBoss_LongTiZuoShang_P2_Body.MI_EliteBoss_LongTiZuoShang_P2_Body"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "HookMan",
+      "id": "Hun_OutFit_Boss_HookMan",
+      "name": "追命·一阶段",
+      "body": "/HuaShira/Characters/EliteBoss/HookMan/HookMan.HookMan",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/EliteBoss/HookMan/HookMan_Skeleton.HookMan_Skeleton",
+      "clothParts": [],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.7885,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_HookMan_w.T_BP_Monster_HookMan_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/048_HookMan/BP_Monster_HookMan_HorseCartCombat.BP_Monster_HookMan_HorseCartCombat_C",
+      "bodyMaterials": [],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "HuaQianXiao",
+      "id": "Hun_OutFit_Boss_HuaQianXiao",
+      "name": "剑痴·花千笑",
+      "body": "/HuaShira/Characters/EliteMonster/HuaQianXiao/SkinParts/HuaQianXiao_Body.HuaQianXiao_Body",
+      "head": "/HuaShira/Characters/EliteMonster/HuaQianXiao/SkinParts/HuaQianXiao_Head.HuaQianXiao_Head",
+      "skeleton": "/HuaShira/Characters/EliteMonster/HuaQianXiao/HuaQianXiao_Skeleton.HuaQianXiao_Skeleton",
+      "clothParts": [],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/EliteMonster/HuaQianXiao/SkinParts/HuaQianXiao_Cloth.HuaQianXiao_Cloth",
+          "leader": "body",
+          "materials": [
+            null,
+            null,
+            "/Game/PBZContent/Characters/Boss/JianChi/Material/V02/MI_Boss_JianChi_Cloth.MI_Boss_JianChi_Cloth",
+            "/Game/PBZContent/Characters/Boss/JianChi/Material/V02/MI_Boss_JianChi_Cloth.MI_Boss_JianChi_Cloth",
+            "/Game/PBZContent/Characters/Boss/JianChi/Material/V02/MI_Boss_JianChi_Cloth.MI_Boss_JianChi_Cloth"
+          ]
+        },
+        {
+          "path": "/HuaShira/Characters/EliteMonster/HuaQianXiao/SkinParts/HuaQianXiao_Head_Hat.HuaQianXiao_Head_Hat",
+          "leader": "body",
+          "materials": [
+            null,
+            "/Game/PBZContent/Characters/Boss/JianChi/Material/V02/MI_Boss_JianChi_Cloth.MI_Boss_JianChi_Cloth",
+            "/Game/PBZContent/Characters/Boss/JianChi/Material/V02/MI_Boss_JianChi_Cloth.MI_Boss_JianChi_Cloth"
+          ]
+        }
+      ],
+      "grooms": [],
+      "bodyScale": 0.8272,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_HuaQianXIao_w.T_BP_Monster_HuaQianXIao_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/HuaQianXiao/BP_Monster_HuaQianXIao.BP_Monster_HuaQianXIao_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Boss/JianChi/Material/V02/MI_Boss_JianChi_Skin.MI_Boss_JianChi_Skin",
+        "/Game/PBZContent/Characters/Boss/JianChi/Material/V02/MI_Boss_JianChi_Skin.MI_Boss_JianChi_Skin",
+        "/Game/PBZContent/Characters/Boss/JianChi/Material/V02/MI_Boss_JianChi_Cloth.MI_Boss_JianChi_Cloth"
+      ],
+      "headMaterials": [
+        "/Game/PBZContent/Characters/Boss/JianChi/Material/V02/MI_Boss_JianChi_Skin.MI_Boss_JianChi_Skin",
+        "/Game/PBZContent/Characters/Boss/JianChi/Material/V02/MI_Boss_JianChi_HairCard.MI_Boss_JianChi_HairCard"
+      ],
+      "staticParts": []
+    },
+    {
+      "key": "JingYe",
+      "id": "Hun_OutFit_Boss_JingYe",
+      "name": "亡命徒·荆野",
+      "body": "/HuaShira/Characters/EliteMonster/JingYe/SkinParts/JingYe_Body.JingYe_Body",
+      "head": "/HuaShira/Characters/EliteMonster/JingYe/SkinParts/JingYe_Head.Jingye_head",
+      "skeleton": "/HuaShira/Characters/EliteMonster/JingYe/JingYe_Skeleton.JingYe_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteMonster/JingYe/SkinParts/CA_JingYe_Cloth01.CA_JingYe_Cloth01"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_JingYe_w.T_BP_Monster_JingYe_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Monster/JingYe/Materials/MI_EliteMonster_JingYe_Body_UDIM.MI_EliteMonster_JingYe_Body_UDIM",
+        "/Game/PBZContent/Characters/Monster/JingYe/Materials/MI_EliteMonster_JingYe_Cloth_UDIM.MI_EliteMonster_JingYe_Cloth_UDIM"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "ChiLianP2",
+      "id": "Hun_OutFit_Boss_ChiLianP2",
+      "name": "白赤练·献祭之蛇",
+      "body": "/HuaShira/Characters/EliteBoss/ChiLian_P2/SkinParts/ChiLian_P2_Body.ChiLian_P2_Body",
+      "head": "/HuaShira/Characters/EliteBoss/ChiLian_P2/SkinParts/ChiLian_P2_Head.ChiLian_P2_Head",
+      "skeleton": "/HuaShira/Characters/EliteBoss/ChiLian_P2/ChiLian_P2_Skeleton.ChiLian_P2_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteBoss/ChiLian_P2/SkinParts/CA_ChiLian_P2_simulationCloth.CA_ChiLian_P2_simulationCloth",
+        "/HuaShira/Characters/EliteBoss/ChiLian_P2/SkinParts/CA_ChiLianP2_Hair01.CA_ChiLianP2_Hair01"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/EliteBoss/ChiLian_P2/SkinParts/ChiLian_P2_Cloth.ChiLian_P2_Cloth",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/EliteBoss/BaiChiLian_P2/Material/MI_EliteBoss_BaiChiLian_Cloth_P2.MI_EliteBoss_BaiChiLian_Cloth_P2"
+          ]
+        }
+      ],
+      "grooms": [],
+      "bodyScale": 0.6477,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_ChiLian_P2_w.T_BP_Monster_ChiLian_P2_w",
+      "femaleVoice": "baichilian",
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteBoss/BaiChiLian/Material/MI_EliteBoss_BaiChiLian_Skin.MI_EliteBoss_BaiChiLian_Skin"
+      ],
+      "headMaterials": [],
+      "staticParts": [],
+      "adaptation": "Keeps phase-two humanoid and clothing; hides four attack-driven cloth-snake chains to avoid unsupported motion and camera obstruction."
+    },
+    {
+      "key": "BiYuan",
+      "id": "Hun_OutFit_Boss_BiYuan",
+      "name": "毕远掌门残躯",
+      "body": "/HuaShira/Characters/EliteMonster/CanQu_BiYuan/CanQu_BiYuan.CanQu_BiYuan",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/EliteMonster/CanQu_BiYuan/CanQu_BiYuan_Skeleton.CanQu_BiYuan_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteMonster/CanQu_BiYuan/SkinParts/CA_CanQu_BiYuan.CA_CanQu_BiYuan"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_BiYuan_w.T_BP_Monster_BiYuan_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/NPC/DaShiCanQu/Material/MI_NPC_DaShiCanQu_B_Cloth.MI_NPC_DaShiCanQu_B_Cloth",
+        "/Game/PBZContent/Characters/NPC/DaShiCanQu/Material/MI_NPC_DaShiCanQu_B_Sink.MI_NPC_DaShiCanQu_B_Sink",
+        "/Game/PBZContent/Characters/NPC/DaShiCanQu/Material/MI_NPC_DaShiCanQu_B_Cloth.MI_NPC_DaShiCanQu_B_Cloth",
+        "/Game/PBZContent/Characters/NPC/DaShiCanQu/Material/MI_NPC_DaShiCanQu_B_Hair.MI_NPC_DaShiCanQu_B_Hair"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "BiHai",
+      "id": "Hun_OutFit_Boss_BiHai",
+      "name": "碧海大师残躯",
+      "body": "/HuaShira/Characters/EliteMonster/CanQu_BiHai/SkinParts/ZhangMenCanQu_Fo_Body.ZhangMenCanQu_Fo_Body",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/NPC/ZhangMenCanQu_Fo/ZhangMenCanQu_Fo_Skeleton.ZhangMenCanQu_Fo_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteMonster/CanQu_BiHai/SkinParts/Cloth/CA_CanQu_Cloth02.CA_CanQu_Cloth02",
+        "/HuaShira/Characters/EliteMonster/CanQu_BiHai/SkinParts/Cloth/CA_ZhangMengCanQu_LeftSleeve01.CA_ZhangMengCanQu_LeftSleeve01",
+        "/HuaShira/Characters/EliteMonster/CanQu_BiHai/SkinParts/Cloth/CA_ZhangMengCanQu_RightSleeve01.CA_ZhangMengCanQu_RightSleeve01",
+        "/HuaShira/Characters/EliteMonster/CanQu_BiHai/SkinParts/Cloth/CA_ZhangMengCanQu_Skirt.CA_ZhangMengCanQu_Skirt"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_CanQu_BiHai_w.T_BP_Monster_CanQu_BiHai_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/NPC/DaShiCanQu/Material/MI_NPC_DaShiCanQu_C_Sink.MI_NPC_DaShiCanQu_C_Sink",
+        "/Game/PBZContent/Characters/NPC/DaShiCanQu/Material/MI_NPC_DaShiCanQu_C_Cloth.MI_NPC_DaShiCanQu_C_Cloth",
+        "/Game/PBZContent/Characters/NPC/DaShiCanQu/Material/MI_NPC_DaShiCanQu_C_Hair.MI_NPC_DaShiCanQu_C_Hair"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "DangHui",
+      "id": "Hun_OutFit_Boss_DangHui",
+      "name": "操偶师·荡秽",
+      "body": "/HuaShira/Characters/EliteMonster/DangHui/skinParts/DangHui_Body.DangHui_Body",
+      "head": "/HuaShira/Characters/EliteMonster/DangHui/skinParts/DangHui_Head.DangHui_Head",
+      "skeleton": "/HuaShira/Characters/EliteMonster/DangHui/DangHui_Skeleton.DangHui_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteMonster/DangHui/skinParts/CA_SM_DangHui_Cloth_01.CA_SM_DangHui_Cloth_01",
+        "/HuaShira/Characters/EliteMonster/DangHui/skinParts/CA_SM_DangHui_Cloth_02.CA_SM_DangHui_Cloth_02",
+        "/HuaShira/Characters/EliteMonster/DangHui/skinParts/CA_SM_DangHui_Hair.CA_SM_DangHui_Hair"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_Danghui_w.T_BP_Monster_Danghui_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Boss/DangHui/Material/MI_BOSS_DangHui_Cloth.MI_BOSS_DangHui_Cloth",
+        "/Game/PBZContent/Characters/Boss/DangHui/Material/MI_BOSS_DangHui_Skin.MI_BOSS_DangHui_Skin"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "GuWanYue",
+      "id": "Hun_OutFit_Boss_GuWanYue",
+      "name": "女妖·骨婉约",
+      "body": "/HuaShira/Characters/EliteMonster/GuWanYue/SkinParts/GuWanYue_Body.GuWanYue_Body",
+      "head": "/HuaShira/Characters/EliteMonster/GuWanYue/SkinParts/GuWanYue_Head.GuWanYue_Head",
+      "skeleton": "/HuaShira/Characters/EliteMonster/GuWanYue/GuWanYue_Skeleton.GuWanYue_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteMonster/GuWanYue/SkinParts/Cloth/CA_SM_GuWanYue_Cloth_01.CA_SM_GuWanYue_Cloth_01",
+        "/HuaShira/Characters/EliteMonster/GuWanYue/SkinParts/Cloth/CA_SM_GuWanYue_Cloth_02.CA_SM_GuWanYue_Cloth_02",
+        "/HuaShira/Characters/EliteMonster/GuWanYue/SkinParts/Cloth/CA_SM_GuWanYue_Hair.CA_SM_GuWanYue_Hair"
+      ],
+      "extraParts": [],
+      "grooms": [
+        {
+          "role": "groom-GuWanYue_Hair01",
+          "asset": "/Game/PBZContent/Characters/Boss/GuWanYue/Mesh/V02/Hair/GuWanYue_Hair01.GuWanYue_Hair01",
+          "binding": "/Game/PBZContent/Characters/Boss/GuWanYue/Mesh/V02/Hair/GuWanYue_Hair01_GuWanYue_Binding.GuWanYue_Hair01_GuWanYue_Binding"
+        },
+        {
+          "role": "groom-GuWanYue_Hair02",
+          "asset": "/Game/PBZContent/Characters/Boss/GuWanYue/Mesh/V02/Hair/GuWanYue_Hair02.GuWanYue_Hair02",
+          "binding": "/Game/PBZContent/Characters/Boss/GuWanYue/Mesh/V02/Hair/GuWanYue_Hair02_GuWanYue_Binding.GuWanYue_Hair02_GuWanYue_Binding"
+        }
+      ],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_GuWanYue_w.T_BP_Monster_GuWanYue_w",
+      "femaleVoice": "guwanyue",
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Boss/GuWanYue/Material/V02/MI_Boss_GuWanYue_Cloths.MI_Boss_GuWanYue_Cloths",
+        "/Game/PBZContent/Characters/Boss/GuWanYue/Material/V02/MI_Boss_GuWanYue_Cloths.MI_Boss_GuWanYue_Cloths",
+        "/Game/PBZContent/Characters/Boss/GuWanYue/Material/V02/MI_Boss_GuWanYue_Skins.MI_Boss_GuWanYue_Skins",
+        "/Game/PBZContent/Characters/Boss/GuWanYue/Material/V02/MI_Boss_GuWanYue_Skins.MI_Boss_GuWanYue_Skins"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "GuiChaiRed",
+      "id": "Hun_OutFit_Boss_GuiChaiRed",
+      "name": "火流星·一阶段",
+      "body": "/HuaShira/Characters/Monster/GuiChai_Red/SkinParts/GuiChaiRed_Body.GuiChaiRed_Body",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/Monster/GuiChai_Red/GuiChai_Red_Skeleton.GuiChai_Red_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Monster/GuiChai_Red/SkinParts/CA_GuiChaiRed_Cloth01.CA_GuiChaiRed_Cloth01",
+        "/HuaShira/Characters/Monster/GuiChai_Red/SkinParts/CA_GuiChaiRed_Cloth02.CA_GuiChaiRed_Cloth02",
+        "/HuaShira/Characters/Monster/GuiChai_Red/SkinParts/CA_GuiChaiRed_Cloth03.CA_GuiChaiRed_Cloth03"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.8432,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_GuiChai_Red_w.T_BP_Monster_GuiChai_Red_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/069_GuiChai_Red/BP_Monster_GuiChai_Red.BP_Monster_GuiChai_Red_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Boss/GuiChai_Red/Material/MI_Boss_GuiChai_Red_Cloth.MI_Boss_GuiChai_Red_Cloth",
+        "/Game/PBZContent/Characters/EliteMonster/BlueMan/Material/MI_EliteMonster_BlueMan_Head.MI_EliteMonster_BlueMan_Head",
+        "/Game/PBZContent/Characters/Boss/GuiChai_Red/Material/MI_Boss_GuiChai_Red_Cloth.MI_Boss_GuiChai_Red_Cloth",
+        "/Game/PBZContent/Characters/Boss/GuiChai_Red/Material/MI_Boss_GuiChai_Red_Cloth.MI_Boss_GuiChai_Red_Cloth"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "GuiChaiRedP2",
+      "id": "Hun_OutFit_Boss_GuiChaiRedP2",
+      "name": "火流星·二阶段（磷火意识）",
+      "body": "/HuaShira/Characters/Monster/GuiChai_Red_P2/SkinParts/GuiChaiRed_Body.GuiChaiRed_Body",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/Monster/GuiChai_Red_P2/GuiChai_Red_P2_Skeleton.GuiChai_Red_P2_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Monster/GuiChai_Red/SkinParts/CA_GuiChaiRed_Cloth01.CA_GuiChaiRed_Cloth01",
+        "/HuaShira/Characters/Monster/GuiChai_Red/SkinParts/CA_GuiChaiRed_Cloth02.CA_GuiChaiRed_Cloth02",
+        "/HuaShira/Characters/Monster/GuiChai_Red/SkinParts/CA_GuiChaiRed_Cloth03.CA_GuiChaiRed_Cloth03"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/Monster/GuiChai_Red_P2/SkinParts/GuiChaiRed_ArmL.GuiChaiRed_ArmL",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/Boss/GuiChai_Red/Material/MI_Boss_GuiChai_Red_Cloth.MI_Boss_GuiChai_Red_Cloth"
+          ]
+        },
+        {
+          "path": "/HuaShira/Characters/Monster/GuiChai_Red_P2/SkinParts/GuiChaiRed_ArmR.GuiChaiRed_ArmR",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/Boss/GuiChai_Red/Material/MI_Boss_GuiChai_Red_Cloth.MI_Boss_GuiChai_Red_Cloth"
+          ]
+        }
+      ],
+      "grooms": [],
+      "bodyScale": 0.8432,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_GuiChai_Red_P2_w.T_BP_Monster_GuiChai_Red_P2_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/075_GuiChai_Red_P2/BP_Monster_GuiChai_Red_P2.BP_Monster_GuiChai_Red_P2_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Boss/GuiChai_Red/Material/MI_Boss_GuiChai_Red_Cloth.MI_Boss_GuiChai_Red_Cloth"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "LionDancerP2",
+      "id": "Hun_OutFit_Boss_LionDancerP2",
+      "name": "舞狮尊主·二阶段",
+      "body": "/HuaShira/Characters/EliteBoss/LionDancer_P2/LionDancer_P2.LionDancer_P2",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/EliteBoss/LionDancer_P2/LionDancer_P2_Skeleton.LionDancer_P2_Skeleton",
+      "clothParts": [],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.6616,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_LionDancer_P2_w.T_BP_Monster_LionDancer_P2_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_LionDancer_P2.BP_Monster_LionDancer_P2_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteBoss/Lionman_Variants/Material/UDIM/MI_EliteBoss_Lionman_Variants_Fur.MI_EliteBoss_Lionman_Variants_Fur",
+        "/Game/PBZContent/Characters/EliteBoss/Lionman_Variants/Material/UDIM/MI_EliteBoss_Lionman_Variants_Body.MI_EliteBoss_Lionman_Variants_Body",
+        "/Game/PBZContent/Characters/EliteBoss/Lionman_Variants/Material/UDIM/MI_EliteBoss_Lionman_Variants_Cloth_WithEmissive.MI_EliteBoss_Lionman_Variants_Cloth_WithEmissive",
+        "/Game/PBZContent/Characters/EliteBoss/Lionman_Variants/Material/UDIM/MI_EliteBoss_Lionman_Variants_Fur.MI_EliteBoss_Lionman_Variants_Fur"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "YanRu",
+      "id": "Hun_OutFit_Boss_YanRu",
+      "name": "灭法之法·炎茹",
+      "body": "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/Huo/SM_QiShu_Huo_Body.SM_QiShu_Huo_Body",
+      "head": "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/SM_QiShu_Lei_Head.SM_QiShu_Lei_Head",
+      "skeleton": "/HuaShira/Characters/EliteMonster/QiShu_Lei/QiShu_Lei_Skeleton.QiShu_Lei_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/Huo/CA_QiShu_Huo_cloth_01.CA_QiShu_Huo_cloth_01",
+        "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/Huo/CA_QiShu_Huo_cloth_02.CA_QiShu_Huo_cloth_02",
+        "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/Huo/CA_SM_QiShu_Lei_cloth_render04.CA_SM_QiShu_Lei_cloth_render04",
+        "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/Huo/CA_SM_QiShu_Lei_cloth_render05.CA_SM_QiShu_Lei_cloth_render05",
+        "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/Huo/CA_SM_QiShu_Lei_Hair1.CA_SM_QiShu_Lei_Hair1"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.8961,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_QiShu_Huo_w.T_BP_Monster_QiShu_Huo_w",
+      "femaleVoice": "yanru",
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Monster/Qishu/QiShu_Huo/Material/MI_Monster_QiShu_Huo_Cloth_udim.MI_Monster_QiShu_Huo_Cloth_udim",
+        "/Game/PBZContent/Characters/Monster/Qishu/QiShu_Huo/Material/MI_Monster_QiShu_Huo_Cloth_udim.MI_Monster_QiShu_Huo_Cloth_udim",
+        "/Game/PBZContent/Characters/Monster/Qishu/QiShu_Huo/Material/MI_Monster_QiShu_Huo_Body_udim.MI_Monster_QiShu_Huo_Body_udim"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "LeiTing",
+      "id": "Hun_OutFit_Boss_LeiTing",
+      "name": "灭法之法·雷婷",
+      "body": "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/Lei/SM_QiShu_Lei_Body.SM_QiShu_Lei_Body",
+      "head": "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/SM_QiShu_Lei_Head.SM_QiShu_Lei_Head",
+      "skeleton": "/HuaShira/Characters/EliteMonster/QiShu_Lei/QiShu_Lei_Skeleton.QiShu_Lei_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/Lei/CA_QiShu_Lei_cloth02.CA_QiShu_Lei_cloth02",
+        "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/Lei/CA_QiShu_Lei_cloth_01.CA_QiShu_Lei_cloth_01",
+        "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/Lei/CA_SM_QiShu_Lei_cloth_render02.CA_SM_QiShu_Lei_cloth_render02",
+        "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/Lei/CA_SM_QiShu_Lei_cloth_render03.CA_SM_QiShu_Lei_cloth_render03",
+        "/HuaShira/Characters/EliteMonster/QiShu_Lei/SkinParts/Lei/CA_SM_QiShu_Lei_Hair.CA_SM_QiShu_Lei_Hair"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.8961,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_QiShu_Lei_w.T_BP_Monster_QiShu_Lei_w",
+      "femaleVoice": "leiting",
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Monster/Qishu/QiShu_Lei/Material/MI_Monster_QiShu_Lei_Cloth_UDIM.MI_Monster_QiShu_Lei_Cloth_UDIM",
+        "/Game/PBZContent/Characters/Monster/Qishu/QiShu_Lei/Material/MI_Monster_QiShu_Lei_Body_UDIM.MI_Monster_QiShu_Lei_Body_UDIM"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "GuHe",
+      "id": "Hun_OutFit_Boss_GuHe",
+      "name": "灭法之法·蛊鹤",
+      "body": "/HuaShira/Characters/EliteMonster/QiShu_Du/SkinParts/Du/SM_Monster_QiShu_Du_Bodybase.SM_Monster_QiShu_Du_Bodybase",
+      "head": "/HuaShira/Characters/EliteMonster/QiShu_Du/SkinParts/SM_Monster_QiShu_Bing_Du_Head.SM_Monster_QiShu_Bing_Du_Head",
+      "skeleton": "/HuaShira/Characters/EliteMonster/QiShu_Du/QiShu_Du_Skeleton.QiShu_Du_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteMonster/QiShu_Du/SkinParts/Du/CA_Monster_QiShu_Bing_cloth04.CA_Monster_QiShu_Bing_cloth04",
+        "/HuaShira/Characters/EliteMonster/QiShu_Du/SkinParts/Du/CA_Monster_QiShu_Bing_cloth05.CA_Monster_QiShu_Bing_cloth05",
+        "/HuaShira/Characters/EliteMonster/QiShu_Du/SkinParts/Du/CA_Monster_QiShu_Bing_cloth06.CA_Monster_QiShu_Bing_cloth06",
+        "/HuaShira/Characters/EliteMonster/QiShu_Du/SkinParts/Du/CA_Monster_QiShu_Du_Hair.CA_Monster_QiShu_Du_Hair"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.8204,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_QiShu_Du_w.T_BP_Monster_QiShu_Du_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Monster/Qishu/QiShu_Du/Material/MI_Monster_QiShu_Du_Body_UDIM.MI_Monster_QiShu_Du_Body_UDIM",
+        "/Game/PBZContent/Characters/Monster/Qishu/QiShu_Du/Material/MI_Monster_QiShu_Du_Cloth_UDIM.MI_Monster_QiShu_Du_Cloth_UDIM",
+        "/Game/PBZContent/Characters/Monster/Qishu/QiShu_Du/Material/MI_Monster_QiShu_Du_Cloth_UDIM.MI_Monster_QiShu_Du_Cloth_UDIM"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "HanSui",
+      "id": "Hun_OutFit_Boss_HanSui",
+      "name": "灭法之法·寒岁",
+      "body": "/HuaShira/Characters/EliteMonster/QiShu_Du/SkinParts/Bing/SM_Monster_QiShu_Bing_Bodybase.SM_Monster_QiShu_Bing_Bodybase",
+      "head": "/HuaShira/Characters/EliteMonster/QiShu_Du/SkinParts/SM_Monster_QiShu_Bing_Du_Head.SM_Monster_QiShu_Bing_Du_Head",
+      "skeleton": "/HuaShira/Characters/EliteMonster/QiShu_Du/QiShu_Du_Skeleton.QiShu_Du_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteMonster/QiShu_Du/SkinParts/Bing/CA_Monster_QiShu_Bing_cloth01.CA_Monster_QiShu_Bing_cloth01",
+        "/HuaShira/Characters/EliteMonster/QiShu_Du/SkinParts/Bing/CA_Monster_QiShu_Bing_cloth02.CA_Monster_QiShu_Bing_cloth02",
+        "/HuaShira/Characters/EliteMonster/QiShu_Du/SkinParts/Bing/CA_Monster_QiShu_Bing_cloth03.CA_Monster_QiShu_Bing_cloth03",
+        "/HuaShira/Characters/EliteMonster/QiShu_Du/SkinParts/Bing/CA_Monster_QiShu_Bing_Hair.CA_Monster_QiShu_Bing_Hair"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.8204,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_QiShu_Bing_w.T_BP_Monster_QiShu_Bing_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Monster/Qishu/Qishu_Bing/Material/MI_Monster_QiShu_Bing_Cloth_UDIM.MI_Monster_QiShu_Bing_Cloth_UDIM",
+        "/Game/PBZContent/Characters/Monster/Qishu/Qishu_Bing/Material/MI_Monster_QiShu_Bing_Body_UDIM.MI_Monster_QiShu_Bing_Body_UDIM",
+        "/Game/PBZContent/Characters/Monster/Qishu/Qishu_Bing/Material/MI_Monster_QiShu_Bing_Cloth_UDIM.MI_Monster_QiShu_Bing_Cloth_UDIM"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "HuoDaoDuiZhang",
+      "id": "Hun_OutFit_Boss_HuoDaoDuiZhang",
+      "name": "火刀·祝原",
+      "body": "/HuaShira/Characters/EliteMonster/HuoDaoDuiZhang/SkinParts/HuoDaoDuiZhang_Body.HuoDaoDuiZhang_Body",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/EliteMonster/HuoDaoDuiZhang/HuoDaoDuiZhang_Skeleton.HuoDaoDuiZhang_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Boss/BladeMan/BladeMan_Fire/SkinParts/Cloth/CA_BladeManFire_Cloth_01.CA_BladeManFire_Cloth_01",
+        "/HuaShira/Characters/Boss/BladeMan/BladeMan_Fire/SkinParts/Cloth/CA_BladeManFire_Cloth_02.CA_BladeManFire_Cloth_02",
+        "/HuaShira/Characters/Boss/BladeMan/BladeMan_Fire/SkinParts/Cloth/CA_BladeManFire_Cloth_03.CA_BladeManFire_Cloth_03",
+        "/HuaShira/Characters/Boss/BladeMan/BladeMan_Fire/SkinParts/Cloth/CA_BladeManFire_Cloth_04.CA_BladeManFire_Cloth_04",
+        "/HuaShira/Characters/Boss/BladeMan/BladeMan_Fire/SkinParts/Cloth/CA_BladeManFire_Cloth_05.CA_BladeManFire_Cloth_05"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.6703,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_HuoDaoDuiZhang_w.T_BP_Monster_HuoDaoDuiZhang_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteMonster/HuoDao/Material/MI_EliteMonster_HuoDao.MI_EliteMonster_HuoDao",
+        "/Game/PBZContent/Characters/EliteMonster/HuoDao/Material/MI_EliteMonster_HuoDao.MI_EliteMonster_HuoDao"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "YanYan",
+      "id": "Hun_OutFit_Boss_YanYan",
+      "name": "疯婆子·奎艳艳",
+      "body": "/HuaShira/Characters/EliteMonster/YanYan/SkinParts/YanYan_Body.YanYan_Body",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/EliteMonster/YanYan/YanYan_Skeleton.YanYan_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteMonster/YanYan/SkinParts/CA_YanYan_Cloth01.CA_YanYan_Cloth01",
+        "/HuaShira/Characters/EliteMonster/YanYan/SkinParts/CA_YanYan_Cloth02.CA_YanYan_Cloth02",
+        "/HuaShira/Characters/EliteMonster/YanYan/SkinParts/CA_YanYan_Cloth03.CA_YanYan_Cloth03"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.9064,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_YanYan_Club_w.T_BP_Monster_YanYan_Club_w",
+      "femaleVoice": "yanyan",
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteMonster/YanYan/Material/MI_Monster_YanYan_Udim.MI_Monster_YanYan_Udim",
+        "/Game/PBZContent/Characters/EliteMonster/YanYan/Material/MI_Monster_YanYan_Hair.MI_Monster_YanYan_Hair"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "QiuFeng",
+      "id": "Hun_OutFit_Boss_QiuFeng",
+      "name": "赤影骨刃·囚锋",
+      "body": "/HuaShira/Characters/EliteMonster/YingMei/SkinParts/YingMei_Chi_Body.YingMei_Chi_Body",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/EliteMonster/YingMei/YingMei_Chi_Skeleton.YingMei_Chi_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteMonster/YingMei/SkinParts/CA_YingMeiChi_Cloth01.CA_YingMeiChi_Cloth01",
+        "/HuaShira/Characters/EliteMonster/YingMei/SkinParts/CA_YingMeiChi_Cloth02.CA_YingMeiChi_Cloth02"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.8935,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_YingMei_RedShadowBoneBlade_w.T_BP_Monster_YingMei_RedShadowBoneBlade_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Monster/YingMei/Material/MI_Monster_YingMei_Chi_Skin.MI_Monster_YingMei_Chi_Skin",
+        "/Game/PBZContent/Characters/Monster/YingMei/Material/MI_Monster_YingMei_Chi_Cloth.MI_Monster_YingMei_Chi_Cloth",
+        "/Game/PBZContent/Characters/Monster/YingMei/Material/MI_Monster_YingMei_Chi_Cloth.MI_Monster_YingMei_Chi_Cloth"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "DuanChang",
+      "id": "Hun_OutFit_Boss_DuanChang",
+      "name": "鬼差高手·断肠",
+      "body": "/HuaShira/Characters/Monster/GuiChai_Cyan/SkinPart/GuiChai_Cyan_Body.GuiChai_Cyan_Body",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/Monster/GuiChai_Cyan/GuiChai_Cyan_Skeleton.GuiChai_Cyan_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Monster/GuiChai_Cyan/SkinPart/Cloth/CA_GuiChai_Cloak.CA_GuiChai_Cloak",
+        "/HuaShira/Characters/Monster/GuiChai_Cyan/SkinPart/Cloth/CA_GuiChai_Robe.CA_GuiChai_Robe",
+        "/HuaShira/Characters/Monster/GuiChai_Cyan/SkinPart/Cloth/CA_GuiChai_Sleeve.CA_GuiChai_Sleeve"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_GuiChai_Cyan_ShuangYue_w.T_BP_Monster_GuiChai_Cyan_ShuangYue_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteMonster/BlueMan/Material/MI_EliteMonster_BlueMan_Head.MI_EliteMonster_BlueMan_Head",
+        "/Game/PBZContent/Characters/EliteMonster/HumanGuiChai_Cyan/Material/MI_EliteMonster_HumanGuiChai_Cyan_Cloth.MI_EliteMonster_HumanGuiChai_Cyan_Cloth",
+        "/Game/PBZContent/Characters/EliteMonster/HumanGuiChai_Cyan/Material/MI_EliteMonster_GuiChai_Cyan_Hand.MI_EliteMonster_GuiChai_Cyan_Hand"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "DuYan",
+      "id": "Hun_OutFit_Boss_DuYan",
+      "name": "独眼弓客",
+      "body": "/HuaShira/Characters/Monster/ArrowMan/SkinParts/ArrowManDuYan/ArrowManDuYan_Body.ArrowManDuYan_Body",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/Monster/ArrowMan/ArrowMan_Skeleton.ArrowMan_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Monster/ArrowMan/SkinParts/ArrowManDuYan/CA_ArrowManDuYan_Cloth01.CA_ArrowManDuYan_Cloth01",
+        "/HuaShira/Characters/Monster/ArrowMan/SkinParts/ArrowManDuYan/CA_ArrowManDuYan_Cloth02.CA_ArrowManDuYan_Cloth02",
+        "/HuaShira/Characters/Monster/ArrowMan/SkinParts/ArrowManDuYan/CA_ArrowManDuYan_Hair01.CA_ArrowManDuYan_Hair01"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.8716,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_DuYanBoss_w.T_BP_Monster_DuYanBoss_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Boss/SoloEyeMan/Material/MI_Boss_ArrowManDuYan_Udim.MI_Boss_ArrowManDuYan_Udim",
+        "/Game/PBZContent/Characters/Boss/SoloEyeMan/Material/MI_Boss_ArrowManDuYan_Udim.MI_Boss_ArrowManDuYan_Udim",
+        "/Game/PBZContent/Characters/Boss/SoloEyeMan/Material/MI_Boss_ArrowManDuYan_Udim.MI_Boss_ArrowManDuYan_Udim",
+        "/Game/PBZContent/Characters/Boss/SoloEyeMan/Material/MI_Boss_ArrowManDuYan_Udim.MI_Boss_ArrowManDuYan_Udim",
+        "/Game/PBZContent/Characters/Boss/SoloEyeMan/Material/MI_Boss_ArrowManDuYan_Udim.MI_Boss_ArrowManDuYan_Udim"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "HuangXingZi",
+      "id": "Hun_OutFit_Boss_HuangXingZi",
+      "name": "荒行子·一阶段",
+      "body": "/HuaShira/Characters/EliteBoss/MBoss/MBoss.MBoss",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/EliteBoss/MBoss/MBoss_Skeleton.MBoss_Skeleton",
+      "clothParts": [],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/EliteBoss/MBoss/SkinParts/MBoss_Upcloth.MBoss_Upcloth",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/EliteBoss/Mboss/Material/MI_EliteBoss_Mboss_UpperBody.MI_EliteBoss_Mboss_UpperBody",
+            "/Game/PBZContent/Characters/EliteBoss/Mboss/Material/MI_EliteBoss_Mboss_UpperBody.MI_EliteBoss_Mboss_UpperBody",
+            null,
+            null
+          ]
+        },
+        {
+          "path": "/HuaShira/Characters/EliteBoss/MBoss/SkinParts/MBoss_LowerCloth.MBoss_LowerCloth",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/EliteBoss/Mboss/Material/MI_EliteBoss_Mboss_LowerBody.MI_EliteBoss_Mboss_LowerBody",
+            null
+          ]
+        },
+        {
+          "path": "/HuaShira/Characters/EliteBoss/MBoss/SkinParts/MBossSwordBag_Skin.MBossSwordBag_Skin",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/EliteBoss/Mboss/Material/MI_EliteBoss_Mboss_Sword.MI_EliteBoss_Mboss_Sword"
+          ]
+        }
+      ],
+      "grooms": [],
+      "bodyScale": 0.7149,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_MBoss_w.T_BP_Monster_MBoss_w",
+      "femaleVoice": null,
+      "hideBones": [
+        "Mboss_FlyingGuillotine_Root"
+      ],
+      "nativeClass": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MBoss.BP_Monster_MBoss_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteBoss/Mboss/Material/MI_EliteBoss_Mboss_Arm.MI_EliteBoss_Mboss_Arm",
+        "/Game/PBZContent/Characters/EliteBoss/Mboss/Material/MI_EliteBoss_Mboss_LowerBody.MI_EliteBoss_Mboss_LowerBody",
+        "/Game/PBZContent/Characters/EliteBoss/Mboss/Material/MI_EliteBoss_Mboss_UpperBody.MI_EliteBoss_Mboss_UpperBody",
+        "/Game/PBZContent/Characters/EliteBoss/Mboss/Material/MI_EliteBoss_Mboss_Hai.MI_EliteBoss_Mboss_Hai",
+        "/Game/PBZContent/Characters/EliteBoss/Mboss/Material/MI_EliteBoss_Mboss_Sword.MI_EliteBoss_Mboss_Sword",
+        "/Game/PBZContent/Characters/EliteBoss/Mboss/Material_noVT/MI_EliteBoss_Mboss_FlyingGuillotine.MI_EliteBoss_Mboss_FlyingGuillotine",
+        "/Game/PBZContent/Characters/EliteBoss/Mboss/Material/MI_EliteBoss_Mboss_LowerBody.MI_EliteBoss_Mboss_LowerBody",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "/Game/PBZContent/Characters/EliteBoss/Mboss/Material/MI_EliteBoss_Mboss_UpperBody.MI_EliteBoss_Mboss_UpperBody"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "FengXueDaoKe",
+      "id": "Hun_OutFit_Boss_FengXueDaoKe",
+      "name": "风雪刀客",
+      "body": "/HuaShira/Characters/EliteBoss/FengXueDaoKe/SkinParts/FengXueDaoke_Body.FengXueDaoke_Body",
+      "head": "/HuaShira/Characters/EliteBoss/FengXueDaoKe/SkinParts/FengXueDaoKe_Head.FengXueDaoKe_Head",
+      "skeleton": "/HuaShira/Characters/EliteBoss/FengXueDaoKe/FengXueDaoKe_Skeleton.FengXueDaoKe_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteBoss/FengXueDaoKe/SkinParts/CA_fengxuedaoke_cloth01.CA_fengxuedaoke_cloth01",
+        "/HuaShira/Characters/EliteBoss/FengXueDaoKe/SkinParts/CA_fengxuedaoke_cloth02.CA_fengxuedaoke_cloth02",
+        "/HuaShira/Characters/EliteBoss/FengXueDaoKe/SkinParts/CA_fengxuedaoke_cloth03.CA_fengxuedaoke_cloth03",
+        "/HuaShira/Characters/EliteBoss/FengXueDaoKe/SkinParts/CA_fengxuedaoke_Hair.CA_fengxuedaoke_Hair"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.8441,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_FengXueDaoKe_w.T_BP_Monster_FengXueDaoKe_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteBoss/Fengxuedaoke/Materials/MI_Eliteboss_FengXueDaoKe_Fabric_Udim.MI_Eliteboss_FengXueDaoKe_Fabric_Udim"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "LeiDang",
+      "id": "Hun_OutFit_Boss_LeiDang",
+      "name": "虎炮·雷当",
+      "body": "/HuaShira/Characters/EliteBoss/LeiDang/SkinParts/LeiDang/LeiDang_Body.LeiDang_Body",
+      "head": "/HuaShira/Characters/EliteBoss/LeiDang/SkinParts/LeiDang/LeiDang_Head.LeiDang_Head",
+      "skeleton": "/HuaShira/Characters/EliteBoss/LeiDang/LeiDang_Skeleton.LeiDang_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteBoss/LeiDang/SkinParts/LeiDang/CA_LeiDang_Cloth01.CA_LeiDang_Cloth01",
+        "/HuaShira/Characters/EliteBoss/LeiDang/SkinParts/LeiDang/CA_LeiDang_Cloth02.CA_LeiDang_Cloth02",
+        "/HuaShira/Characters/EliteBoss/LeiDang/SkinParts/LeiDang/CA_LeiDang_Cloth03.CA_LeiDang_Cloth03"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/EliteBoss/LeiDang/SkinParts/LeiDang_P2/LeiDang_P2_Hair01.LeiDang_P2_Hair01",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/EliteBoss/Don/Material/MI_EliteBoss_Don_Fur.MI_EliteBoss_Don_Fur"
+          ]
+        },
+        {
+          "path": "/HuaShira/Characters/EliteBoss/LeiDang/SkinParts/LeiDang/LeiDang_Weapon.LeiDang_Weapon",
+          "leader": "body"
+        }
+      ],
+      "grooms": [],
+      "bodyScale": 0.8054,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_LeiDang_w.T_BP_Monster_LeiDang_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang.BP_Monster_LeiDang_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteBoss/Don/Secondary/Material/MI_EliteBoss_Don_Secondary_Head_UDIM.MI_EliteBoss_Don_Secondary_Head_UDIM",
+        "/Game/PBZContent/Characters/EliteBoss/Don/Material/MI_EliteBoss_Leidang_Cloth_UDIM.MI_EliteBoss_Leidang_Cloth_UDIM"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "LeiDangP2",
+      "id": "Hun_OutFit_Boss_LeiDangP2",
+      "name": "雷当·独臂虎",
+      "body": "/HuaShira/Characters/EliteBoss/LeiDang/SkinParts/LeiDang_P2/LeiDang_P2_Body.LeiDang_P2_Body",
+      "head": "/HuaShira/Characters/EliteBoss/LeiDang/SkinParts/LeiDang_P2/LeiDang_P2_Head.LeiDang_P2_Head",
+      "skeleton": "/HuaShira/Characters/EliteBoss/LeiDang/LeiDang_P2_Skeleton.LeiDang_P2_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteBoss/LeiDang/SkinParts/LeiDang_P2/CA_LeiDang_P2_Cloth01.CA_LeiDang_P2_Cloth01",
+        "/HuaShira/Characters/EliteBoss/LeiDang/SkinParts/LeiDang_P2/CA_LeiDang_P2_Cloth02.CA_LeiDang_P2_Cloth02"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/EliteBoss/LeiDang/SkinParts/LeiDang_P2/LeiDang_P2_Hair01.LeiDang_P2_Hair01",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/EliteBoss/Don/Material/MI_EliteBoss_Don_Fur.MI_EliteBoss_Don_Fur"
+          ]
+        }
+      ],
+      "grooms": [],
+      "bodyScale": 0.8054,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_LeiDang_P2_w.T_BP_Monster_LeiDang_P2_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/050_LeiDang_P2/BP_Monster_LeiDang_P2.BP_Monster_LeiDang_P2_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteBoss/Don/Secondary/Material/MI_EliteBoss_Don_Secondary_Skins_P2_UDIM.MI_EliteBoss_Don_Secondary_Skins_P2_UDIM",
+        "/Game/PBZContent/Characters/EliteBoss/Don/Material/MI_EliteBoss_Leidang_Cloth_UDIM.MI_EliteBoss_Leidang_Cloth_UDIM",
+        "/Game/PBZContent/Characters/EliteBoss/Don/Secondary/Material/MI_EliteBoss_Don_Secondary_BodyArmor.MI_EliteBoss_Don_Secondary_BodyArmor"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "LengTu",
+      "id": "Hun_OutFit_Boss_LengTu",
+      "name": "梦差·冷荼",
+      "body": "/HuaShira/Characters/EliteBoss/LengTu/SkinParts/LengTu_Body_Npc_Monster.LengTu_Body_Npc_Monster",
+      "head": "/HuaShira/Characters/EliteBoss/LengTu/SkinParts/LengTu_Head.LengTu_Head",
+      "skeleton": "/HuaShira/Characters/EliteBoss/LengTu/LengTu_Skeleton.LengTu_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteBoss/LengTu/SkinParts/Battle/CA_LengTu_Cloth01.CA_LengTu_Cloth01",
+        "/HuaShira/Characters/EliteBoss/LengTu/SkinParts/CA_LengTu_Cloth02.CA_LengTu_Cloth02",
+        "/HuaShira/Characters/EliteBoss/LengTu/SkinParts/CA_LengTu_Cloth03.CA_LengTu_Cloth03"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_LengTu_w.T_BP_Monster_LengTu_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/BP_Monster_LengTu.BP_Monster_LengTu_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteBoss/LengTu/Material/MI_EliteBoss_LengTu_Armor_UDIM.MI_EliteBoss_LengTu_Armor_UDIM",
+        "/Game/PBZContent/Characters/EliteBoss/LengTu/Material/MI_EliteBoss_LengTu_Skin_UDIM.MI_EliteBoss_LengTu_Skin_UDIM"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "MengHua",
+      "id": "Hun_OutFit_Boss_MengHua",
+      "name": "梦华圣母",
+      "body": "/HuaShira/Characters/EliteBoss/MengHua/SkinParts/MengHua_Body.MengHua_Body",
+      "head": "/HuaShira/Characters/EliteBoss/MengHua/SkinParts/MengHua_Head.MengHua_Head",
+      "skeleton": "/HuaShira/Characters/EliteBoss/MengHua/MengHua_Skeleton.MengHua_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteBoss/MengHua/SkinParts/CA_MengHua_Cloth01.CA_MengHua_Cloth01",
+        "/HuaShira/Characters/EliteBoss/MengHua/SkinParts/Cloth/CA_SM_MengHua_Cloth_01.CA_SM_MengHua_Cloth_01",
+        "/HuaShira/Characters/EliteBoss/MengHua/SkinParts/Cloth/CA_SM_MengHua_Cloth_02.CA_SM_MengHua_Cloth_02",
+        "/HuaShira/Characters/EliteBoss/MengHua/SkinParts/Cloth/CA_SM_MengHua_Cloth_03.CA_SM_MengHua_Cloth_03",
+        "/HuaShira/Characters/EliteBoss/MengHua/SkinParts/Cloth/CA_SM_MengHua_Hair.CA_SM_MengHua_Hair"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/EliteBoss/MengHua/SkinParts/MengHua_HeadOther01.MengHua_HeadOther01",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/Boss/ShengMuNiangNiang/Material/MI_Boss_SMNN_Cloth.MI_Boss_SMNN_Cloth",
+            "/Game/PBZContent/Characters/Boss/ShengMuNiangNiang/Material/MI_Boss_SMNN_Hair.MI_Boss_SMNN_Hair"
+          ]
+        }
+      ],
+      "grooms": [],
+      "bodyScale": 0.7204,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_MengHua_w.T_BP_Monster_MengHua_w",
+      "femaleVoice": "menghua",
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Boss/ShengMuNiangNiang/Material/MI_Boss_SMNN_Body.MI_Boss_SMNN_Body",
+        "/Game/PBZContent/Characters/Boss/ShengMuNiangNiang/Material/MI_Boss_SMNN_Cloth.MI_Boss_SMNN_Cloth"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "YuBi",
+      "id": "Hun_OutFit_Boss_YuBi",
+      "name": "剑偶·玉璧",
+      "body": "/HuaShira/Characters/Boss/YuBi/SkinParts/YuBi_Body.YuBi_Body",
+      "head": "/HuaShira/Characters/Boss/YuBi/SkinParts/YuBi_Head.YuBi_Head",
+      "skeleton": "/HuaShira/Characters/Boss/YuBi/YuBi_Skeleton.YuBi_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Boss/YuBi/SkinParts/CA_YuBi_Cloth01.CA_YuBi_Cloth01",
+        "/HuaShira/Characters/Boss/YuBi/SkinParts/CA_YuBi_Cloth02.CA_YuBi_Cloth02",
+        "/HuaShira/Characters/Boss/YuBi/SkinParts/CA_YuBi_Hair01.CA_YuBi_Hair01"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.7683,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_YuBi_w.T_BP_Monster_YuBi_w",
+      "femaleVoice": "yubi",
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Monster/YuBi/Material/MI_Monster_YuBi_Cloth_UDIM.MI_Monster_YuBi_Cloth_UDIM",
+        "/Game/PBZContent/Characters/Monster/YuBi/Material/MI_Monster_YuBi_Cloth_UDIM.MI_Monster_YuBi_Cloth_UDIM"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "YuZan",
+      "id": "Hun_OutFit_Boss_YuZan",
+      "name": "乐师偶·玉瓒",
+      "body": "/HuaShira/Characters/Boss/YuZan/SkinParts/YuZan_Body.YuZan_Body",
+      "head": "/HuaShira/Characters/Boss/YuZan/SkinParts/YuZan_Head.YuZan_Head",
+      "skeleton": "/HuaShira/Characters/Boss/YuZan/YuZan_Skeleton.YuZan_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Boss/YuZan/SkinParts/CA_YuZan_Cloth01.CA_YuZan_Cloth01",
+        "/HuaShira/Characters/Boss/YuZan/SkinParts/CA_YuZan_Cloth02.CA_YuZan_Cloth02",
+        "/HuaShira/Characters/Boss/YuZan/SkinParts/CA_YuZan_Cloth03.CA_YuZan_Cloth03",
+        "/HuaShira/Characters/Boss/YuZan/SkinParts/CA_YuZan_Hair.CA_YuZan_Hair"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.8246,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_FemaleVessel_YuZan_w.T_BP_Monster_FemaleVessel_YuZan_w",
+      "femaleVoice": "yuzan",
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Monster/YuZan/Material/MI_Monster_YuZan_Cloth.MI_Monster_YuZan_Cloth",
+        "/Game/PBZContent/Characters/Monster/YuZan/Material/MI_Monster_YuZan_Skin.MI_Monster_YuZan_Skin"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "MoTianMasked",
+      "id": "Hun_OutFit_Boss_MoTianMasked",
+      "name": "金面具黑衣人",
+      "body": "/HuaShira/Characters/Hero/MoTian/SkinParts/MoTian_Body.MoTian_Body",
+      "head": "/HuaShira/Characters/Hero/MoTian/SkinParts/MoTian_Head.MoTian_Head",
+      "skeleton": "/HuaShira/Characters/Hero/MoTian/MoTian_Skeleton.MoTian_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Hero/MoTian/SkinParts/Cloth/CA_Motian_cloth01.CA_Motian_cloth01",
+        "/HuaShira/Characters/Hero/MoTian/SkinParts/Cloth/CA_Motian_cloth02_new.CA_Motian_cloth02_new",
+        "/HuaShira/Characters/Hero/MoTian/SkinParts/Cloth/CA_Motian_cloth03.CA_Motian_cloth03",
+        "/HuaShira/Characters/Hero/MoTian/SkinParts/Cloth/CA_Motian_hair.CA_Motian_hair"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/Hero/MoTian/SkinParts/MoTian_BrowLashCardMask.MoTian_BrowLashCardMask",
+          "leader": "head",
+          "materials": [
+            "/Game/PBZContent/Characters/NPC/ZhengDaoDuiZhang_01/Material/MI_NPC_ZhengDaoDuiZhang_01_Lash.MI_NPC_ZhengDaoDuiZhang_01_Lash"
+          ]
+        },
+        {
+          "path": "/HuaShira/Characters/Hero/MoTian/SkinParts/Cloth/SM_MoTian_Hair_skin_02.SM_MoTian_Hair_skin_02",
+          "leader": "body"
+        }
+      ],
+      "grooms": [
+        {
+          "role": "groom-MoTian_Bread",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Bread.MoTian_Bread",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Bread_MoTian_Head_Binding.MoTian_Bread_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Brow",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Brow.MoTian_Brow",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Brow_MoTian_Head_Binding.MoTian_Brow_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair01",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair01.MoTian_Hair01",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair01_MoTian_Head_Binding.MoTian_Hair01_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair02",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair02.MoTian_Hair02",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair02_MoTian_Head_Binding.MoTian_Hair02_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair03",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair03.MoTian_Hair03",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair03_MoTian_Head_Binding.MoTian_Hair03_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair04",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair04.MoTian_Hair04",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair04_MoTian_Head_Binding.MoTian_Hair04_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair05",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair05.MoTian_Hair05",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair05_MoTian_Head_Binding.MoTian_Hair05_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair06",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair06.MoTian_Hair06",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair06_MoTian_Head_Binding.MoTian_Hair06_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair07",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair07.MoTian_Hair07",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair07_MoTian_Head_Binding.MoTian_Hair07_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Lash",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Lash.MoTian_Lash",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Lash_MoTian_Head_Binding.MoTian_Lash_MoTian_Head_Binding"
+        }
+      ],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_MoTian_LongZhu_01_w.T_BP_Monster_MoTian_LongZhu_01_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/NPC/MoTian/Material/MI_NPC_MoTian_Cloth.MI_NPC_MoTian_Cloth",
+        "/Game/PBZContent/Characters/NPC/MoTian/Material/MI_NPC_MoTian_Cloth.MI_NPC_MoTian_Cloth",
+        "/Game/PBZContent/Characters/NPC/MoTian/Material/MI_NPC_MoTian_Body.MI_NPC_MoTian_Body"
+      ],
+      "headMaterials": [],
+      "staticParts": [
+        {
+          "path": "/HuaShira/Characters/Hero/MoTian/other/MoTian_Mask_new.MoTian_Mask_new",
+          "socket": "head",
+          "location": [
+            0,
+            0.2,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -90
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "materials": [
+            "/Game/PBZContent/Characters/NPC/MoTian/Material/MI_NPC_MoTian_Mask.MI_NPC_MoTian_Mask"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MoYuan",
+      "id": "Hun_OutFit_Boss_MoYuan",
+      "name": "暗魔天堡之主·魔渊",
+      "body": "/HuaShira/Characters/Hero/MoTian/SkinParts/MoTian_Body.MoTian_Body",
+      "head": "/HuaShira/Characters/Hero/MoTian/SkinParts/MoTian_Head.MoTian_Head",
+      "skeleton": "/HuaShira/Characters/Hero/MoTian/MoTian_Skeleton.MoTian_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Hero/MoTian/SkinParts/Cloth/CA_Motian_cloth01.CA_Motian_cloth01",
+        "/HuaShira/Characters/Hero/MoTian/SkinParts/Cloth/CA_Motian_cloth02_new.CA_Motian_cloth02_new",
+        "/HuaShira/Characters/Hero/MoTian/SkinParts/Cloth/CA_Motian_cloth03.CA_Motian_cloth03",
+        "/HuaShira/Characters/Hero/MoTian/SkinParts/Cloth/CA_Motian_hair.CA_Motian_hair"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/Hero/MoTian/SkinParts/MoTian_BrowLashCard.MoTian_BrowLashCard",
+          "leader": "head",
+          "materials": [
+            "/Game/PBZContent/Characters/Hero/Hun_Young/Material/V02/Hair/MI_HunYoung_Eyebrows.MI_HunYoung_Eyebrows",
+            "/Game/PBZContent/Characters/NPC/ZhengDaoDuiZhang_01/Material/MI_NPC_ZhengDaoDuiZhang_01_Lash.MI_NPC_ZhengDaoDuiZhang_01_Lash"
+          ]
+        },
+        {
+          "path": "/HuaShira/Characters/Hero/MoTian/SkinParts/Cloth/SM_MoTian_Hair_skin_02.SM_MoTian_Hair_skin_02",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/NPC/MoTian/Material/MI_EliteBoss_MoTian_HairCard.MI_EliteBoss_MoTian_HairCard"
+          ]
+        }
+      ],
+      "grooms": [
+        {
+          "role": "groom-MoTian_Bread",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Bread.MoTian_Bread",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Bread_MoTian_Head_Binding.MoTian_Bread_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Brow",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Brow.MoTian_Brow",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Brow_MoTian_Head_Binding.MoTian_Brow_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair01",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair01.MoTian_Hair01",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair01_MoTian_Head_Binding.MoTian_Hair01_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair02",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair02.MoTian_Hair02",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair02_MoTian_Head_Binding.MoTian_Hair02_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair03",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair03.MoTian_Hair03",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair03_MoTian_Head_Binding.MoTian_Hair03_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair04",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair04.MoTian_Hair04",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair04_MoTian_Head_Binding.MoTian_Hair04_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair05",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair05.MoTian_Hair05",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair05_MoTian_Head_Binding.MoTian_Hair05_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair06",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair06.MoTian_Hair06",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair06_MoTian_Head_Binding.MoTian_Hair06_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Hair07",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair07.MoTian_Hair07",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Hair07_MoTian_Head_Binding.MoTian_Hair07_MoTian_Head_Binding"
+        },
+        {
+          "role": "groom-MoTian_Lash",
+          "asset": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Lash.MoTian_Lash",
+          "binding": "/Game/PBZContent/Characters/NPC/MoTian/Hair/MoTian_Lash_MoTian_Head_Binding.MoTian_Lash_MoTian_Head_Binding"
+        }
+      ],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_MoTian_w.T_BP_Monster_MoTian_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian.BP_Monster_MoTian_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/NPC/MoTian/Material/MI_NPC_MoTian_Cloth.MI_NPC_MoTian_Cloth",
+        "/Game/PBZContent/Characters/NPC/MoTian/Material/MI_NPC_MoTian_Cloth.MI_NPC_MoTian_Cloth",
+        "/Game/PBZContent/Characters/NPC/MoTian/Material/MI_NPC_MoTian_Body.MI_NPC_MoTian_Body"
+      ],
+      "headMaterials": [],
+      "staticParts": [
+        {
+          "path": "/HuaShira/Characters/Hero/MoTian/SkinParts/MoTian_HeadOther.MoTian_HeadOther",
+          "socket": "head",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "materials": [
+            "/Game/PBZContent/Characters/NPC/MoTian/Material/MI_NPC_MoTian_Cloth.MI_NPC_MoTian_Cloth"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ChangHong",
+      "id": "Hun_OutFit_Boss_ChangHong",
+      "name": "雷枪·长鸿",
+      "body": "/HuaShira/Characters/EliteBoss/ChangHong/SkinParts/ChangHong_Body.ChangHong_Body",
+      "head": "/HuaShira/Characters/EliteBoss/ChangHong/SkinParts/ChangHong_Head.ChangHong_Head",
+      "skeleton": "/HuaShira/Characters/EliteBoss/ChangHong/ChangHong_Skeleton.ChangHong_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteBoss/ChangHong/SkinParts/CA_ChangHong_Hair01.CA_ChangHong_Hair01",
+        "/HuaShira/Characters/EliteBoss/ChangHong/SkinParts/CA_ChangHong_Hair02.CA_ChangHong_Hair02",
+        "/HuaShira/Characters/EliteBoss/ChangHong_P2/SkinParts/Cloth/CA_SM_EliteBoss_ChangHong_render02.CA_SM_EliteBoss_ChangHong_render02",
+        "/HuaShira/Characters/EliteBoss/ChangHong_P2/SkinParts/Cloth/CA_SM_EliteBoss_ChangHong_render01.CA_SM_EliteBoss_ChangHong_render01",
+        "/HuaShira/Characters/EliteBoss/ChangHong_P2/SkinParts/Cloth/CA_SM_EliteBoss_ChangHong_render03.CA_SM_EliteBoss_ChangHong_render03"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/EliteBoss/ChangHong/SkinParts/ChangHong_Beard.ChangHong_Beard",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/EliteBoss/ChangHong/Material/MI_EliteBoss_ChangHong_HairCard01.MI_EliteBoss_ChangHong_HairCard01"
+          ]
+        }
+      ],
+      "grooms": [
+        {
+          "role": "groom-SM_EliteBoss_ChangHong_Eyebrows",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ChangHong/Mesh/SM_EliteBoss_ChangHong_Eyebrows.SM_EliteBoss_ChangHong_Eyebrows",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ChangHong/Mesh/SM_EliteBoss_ChangHong_Eyebrows_ChangHong_ChangHong_Binding.SM_EliteBoss_ChangHong_Eyebrows_ChangHong_ChangHong_Binding"
+        },
+        {
+          "role": "groom-SM_EliteBoss_ChangHong_Eyelashes",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ChangHong/Mesh/SM_EliteBoss_ChangHong_Eyelashes.SM_EliteBoss_ChangHong_Eyelashes",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ChangHong/Mesh/SM_EliteBoss_ChangHong_Eyelashes_ChangHong_Binding.SM_EliteBoss_ChangHong_Eyelashes_ChangHong_Binding"
+        },
+        {
+          "role": "groom-SM_EliteBoss_ChangHong_Hair",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ChangHong/Mesh/SM_EliteBoss_ChangHong_Hair.SM_EliteBoss_ChangHong_Hair",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ChangHong/Mesh/SM_EliteBoss_ChangHong_Hair_ChangHong_Binding.SM_EliteBoss_ChangHong_Hair_ChangHong_Binding"
+        },
+        {
+          "role": "groom-SM_EliteBoss_ChangHong_Hat_Fur",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ChangHong/Mesh/SM_EliteBoss_ChangHong_Hat_Fur.SM_EliteBoss_ChangHong_Hat_Fur",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ChangHong/Mesh/SM_EliteBoss_ChangHong_Hat_Fur_ChangHong_Binding.SM_EliteBoss_ChangHong_Hat_Fur_ChangHong_Binding"
+        },
+        {
+          "role": "groom-SM_EliteBoss_ChangHong_Mustache",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ChangHong/Mesh/SM_EliteBoss_ChangHong_Mustache.SM_EliteBoss_ChangHong_Mustache",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ChangHong/Mesh/SM_EliteBoss_ChangHong_Mustache_ChangHong_Binding.SM_EliteBoss_ChangHong_Mustache_ChangHong_Binding"
+        }
+      ],
+      "bodyScale": 0.8652,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_ChangHong_Spear_w.T_BP_Monster_ChangHong_Spear_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/049_ChangHong/BP_Monster_ChangHong_Spear.BP_Monster_ChangHong_Spear_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteBoss/ChangHong/Material/MI_EliteBoss_ChangHong_Skin_UDIM.MI_EliteBoss_ChangHong_Skin_UDIM",
+        "/Game/PBZContent/Characters/EliteBoss/ChangHong/Material/MI_EliteBoss_ChangHong_Cloth_UDIM.MI_EliteBoss_ChangHong_Cloth_UDIM"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "WanJun",
+      "id": "Hun_OutFit_Boss_WanJun",
+      "name": "巨锤客·万钧",
+      "body": "/HuaShira/Characters/EliteMonster/WanJun/SkinParts/WanJun_Body.WanJun_Body",
+      "head": "/HuaShira/Characters/EliteMonster/WanJun/SkinParts/WanJun_Head02.WanJun_Head02",
+      "skeleton": "/HuaShira/Characters/EliteMonster/WanJun/WanJun_Skeleton.WanJun_Skeleton",
+      "clothParts": [],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/EliteMonster/WanJun/SkinParts/WanJun_Cloth_00.WanJun_Cloth_00",
+          "leader": "body",
+          "materials": [
+            null,
+            "/Game/PBZContent/Characters/Boss/JuChuiKe/Material/MI_Boss_JuChuiKe_Armor.MI_Boss_JuChuiKe_Armor"
+          ]
+        }
+      ],
+      "grooms": [],
+      "bodyScale": 0.4313,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_WanJun_JinGua_w.T_BP_Monster_WanJun_JinGua_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Boss/JuChuiKe/Material/MI_Boss_JuChuiKe_BodyNew.MI_Boss_JuChuiKe_BodyNew",
+        "/Game/PBZContent/Characters/Boss/JuChuiKe/Material/MI_Boss_JuChuiKe_Armor.MI_Boss_JuChuiKe_Armor",
+        "/Game/PBZContent/Characters/Boss/JuChuiKe/Material/MI_Boss_JuChuiKe_Armor.MI_Boss_JuChuiKe_Armor",
+        "/Game/PBZContent/Characters/Boss/JuChuiKe/Material/MI_Boss_JuChuiKe_Armor.MI_Boss_JuChuiKe_Armor",
+        "/Game/PBZContent/Characters/Boss/JuChuiKe/Material/MI_Boss_JuChuiKe_Armor.MI_Boss_JuChuiKe_Armor",
+        "/Game/PBZContent/Characters/Boss/JuChuiKe/Material/MI_Boss_JuChuiKe_Armor.MI_Boss_JuChuiKe_Armor"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "RedSwordswoman",
+      "id": "Hun_OutFit_Boss_RedSwordswoman",
+      "name": "红衣女剑客",
+      "body": "/HuaShira/Characters/Monster/EMei/SkinParts/BaiShanNvJian/BaiShanNvJian_Body.BaiShanNvJian_Body",
+      "head": "/HuaShira/Characters/Monster/EMei/SkinParts/BaiShanNvJian/BaiShanNvJian_Head.BaiShanNvJian_Head",
+      "skeleton": "/HuaShira/Characters/Monster/EMei/EMei_Skeleton.EMei_Skeleton",
+      "clothParts": [],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/Monster/EMei/SkinParts/BaiShanNvJian/BaiShanNvJian_Cloth_00.BaiShanNvJian_Cloth_00",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/NPC/Baishan/Baishan_NvJian/Material/UDIM/MI_Baishan_NvJian_Red_Cloth.MI_Baishan_NvJian_Red_Cloth",
+            "/Game/PBZContent/Characters/NPC/Baishan/Baishan_NvJian/Material/UDIM/MI_Baishan_NvJian_Red_Cloth.MI_Baishan_NvJian_Red_Cloth",
+            null,
+            null
+          ]
+        }
+      ],
+      "grooms": [],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_EMei_Sword_Top_w.T_BP_Monster_EMei_Sword_Top_w",
+      "femaleVoice": "redswordswoman",
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/NPC/Baishan/Baishan_NvJian/Material/UDIM/MI_Baishan_NvJian_Red_Cloth.MI_Baishan_NvJian_Red_Cloth",
+        "/Game/PBZContent/Characters/NPC/Baishan/Baishan_NvJian/Material/MI_NPC_Baishan_NvJian_Body.MI_NPC_Baishan_NvJian_Body",
+        "/Game/PBZContent/Characters/NPC/Baishan/Baishan_NvJian/Material/UDIM/MI_Baishan_NvJian_Red_Cloth.MI_Baishan_NvJian_Red_Cloth",
+        "/Game/PBZContent/Characters/NPC/Baishan/Baishan_NvJian/Material/UDIM/MI_Baishan_NvJian_Red_Cloth.MI_Baishan_NvJian_Red_Cloth",
+        "/Game/PBZContent/Characters/NPC/Baishan/Baishan_NvJian/Material/UDIM/MI_Baishan_NvJian_Red_Cloth.MI_Baishan_NvJian_Red_Cloth"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "ChiefDisciple",
+      "id": "Hun_OutFit_Boss_ChiefDisciple",
+      "name": "七星剑阵·大师兄",
+      "body": "/HuaShira/Characters/Monster/HuaShan/HuaShan_JianOu.HuaShan_JianOu",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/Monster/HuaShan/HuaShan_Skeleton.HuaShan_Skeleton",
+      "clothParts": [],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_HuaShan_Blue_w.T_BP_Monster_HuaShan_Blue_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Blue.BP_Monster_HuaShan_Blue_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Monster/SwordsMan_Blue/Material/MI_Monster_SwordsMan_Blue_Body.MI_Monster_SwordsMan_Blue_Body",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Head.MI_Monster_SwordsDoll_Head",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Fabric.MI_Monster_SwordsDoll_Fabric",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_LeftLeg_Rope.MI_Monster_SwordsDoll_LeftLeg_Rope",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_LeftArm_Rope.MI_Monster_SwordsDoll_LeftArm_Rope",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_RightLeg_Rope.MI_Monster_SwordsDoll_RightLeg_Rope",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Cloth.MI_Monster_SwordsDoll_Cloth",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Cloth.MI_Monster_SwordsDoll_Cloth",
+        null,
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Fabric.MI_Monster_SwordsDoll_Fabric",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Fabric.MI_Monster_SwordsDoll_Fabric",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Armor.MI_Monster_SwordsDoll_Armor",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Hand.MI_Monster_SwordsDoll_Hand",
+        null,
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Fabric.MI_Monster_SwordsDoll_Fabric"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "ChiefDiscipleP2",
+      "id": "Hun_OutFit_Boss_ChiefDiscipleP2",
+      "name": "大师兄·绝望剑意",
+      "body": "/HuaShira/Characters/Monster/HuaShan/HuaShan_JianOu.HuaShan_JianOu",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/Monster/HuaShan/HuaShan_Skeleton.HuaShan_Skeleton",
+      "clothParts": [],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/Monster/HuaShan/HuaShan_JianOu_rope.HuaShan_JianOu_rope",
+          "leader": "body",
+          "materials": [
+            null,
+            "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Head.MI_Monster_SwordsDoll_Head",
+            "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Fabric.MI_Monster_SwordsDoll_Fabric",
+            "/Game/PBZContent/Characters/Monster/SwordsMan_Blue/Material/MI_Monster_SwordsMan_Blue_LeftArm_Rope.MI_Monster_SwordsMan_Blue_LeftArm_Rope",
+            "/Game/PBZContent/Characters/Monster/SwordsMan_Blue/Material/MI_Monster_SwordsMan_Blue_LeftArm_Rope.MI_Monster_SwordsMan_Blue_LeftArm_Rope",
+            "/Game/PBZContent/Characters/Monster/SwordsMan_Blue/Material/MI_Monster_SwordsMan_Blue_RightLeg_Rope.MI_Monster_SwordsMan_Blue_RightLeg_Rope",
+            "/Game/PBZContent/Characters/Monster/SwordsMan_Blue/Material/MI_Monster_SwordsMan_Blue_Cloth.MI_Monster_SwordsMan_Blue_Cloth",
+            "/Game/PBZContent/Characters/Monster/SwordsMan_Blue/Material/MI_Monster_SwordsMan_Blue_Cloth.MI_Monster_SwordsMan_Blue_Cloth",
+            null,
+            "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Fabric.MI_Monster_SwordsDoll_Fabric",
+            "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Fabric.MI_Monster_SwordsDoll_Fabric",
+            "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Armor.MI_Monster_SwordsDoll_Armor",
+            "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Hand.MI_Monster_SwordsDoll_Hand",
+            null,
+            "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Fabric.MI_Monster_SwordsDoll_Fabric"
+          ]
+        }
+      ],
+      "grooms": [],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_HuaShan_JianOu_w.T_BP_Monster_HuaShan_JianOu_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_JianOu.BP_Monster_HuaShan_JianOu_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Monster/SwordsMan_Blue/Material/MI_Monster_SwordsMan_Blue_Body.MI_Monster_SwordsMan_Blue_Body",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Head.MI_Monster_SwordsDoll_Head",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Fabric.MI_Monster_SwordsDoll_Fabric",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_LeftLeg_Rope.MI_Monster_SwordsDoll_LeftLeg_Rope",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_LeftArm_Rope.MI_Monster_SwordsDoll_LeftArm_Rope",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_RightLeg_Rope.MI_Monster_SwordsDoll_RightLeg_Rope",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Cloth.MI_Monster_SwordsDoll_Cloth",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Cloth.MI_Monster_SwordsDoll_Cloth",
+        null,
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Fabric.MI_Monster_SwordsDoll_Fabric",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Fabric.MI_Monster_SwordsDoll_Fabric",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Armor.MI_Monster_SwordsDoll_Armor",
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Hand.MI_Monster_SwordsDoll_Hand",
+        null,
+        "/Game/PBZContent/Characters/Monster/SwordsDoll/Material/MI_Monster_SwordsDoll_Fabric.MI_Monster_SwordsDoll_Fabric"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "AJin",
+      "id": "Hun_OutFit_Boss_AJin",
+      "name": "悲痛欲绝的阿瑾",
+      "body": "/HuaShira/Characters/Monster/HuaShan/HuaShan_Red.HuaShan_Red",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/Monster/HuaShan/HuaShan_Skeleton.HuaShan_Skeleton",
+      "clothParts": [],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_HuaShan_RedTroop_BigBro_w.T_BP_Monster_HuaShan_RedTroop_BigBro_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_RedTroop_BigBro.BP_Monster_HuaShan_RedTroop_BigBro_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Monster/HuaShan_Red/Material/MI_Monster_HuaShan_Red_Cloth.MI_Monster_HuaShan_Red_Cloth",
+        "/Game/PBZContent/Characters/Monster/HuaShan_Red/Material/MI_Monster_HuaShan_Red_Hair_White.MI_Monster_HuaShan_Red_Hair_White",
+        "/Game/PBZContent/Characters/Monster/SwordsMan_Blue/Material/MI_Monster_HuaShan_Blue_Cloth_UDIM.MI_Monster_HuaShan_Blue_Cloth_UDIM"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "BiFeng",
+      "id": "Hun_OutFit_Boss_BiFeng",
+      "name": "横刀·毕峰",
+      "body": "/HuaShira/Characters/Boss/BladeMan/BladeMan.BladeMan",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/Boss/BladeMan/BladeMan_Skeleton.BladeMan_Skeleton",
+      "clothParts": [],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.6651,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_GreatBladeMan_w.T_BP_Monster_GreatBladeMan_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+      "bodyMaterials": [
+        null,
+        "/Game/PBZContent/Characters/Boss/BladeMan/Material/MI_Boss_BladeMan_Furcard.MI_Boss_BladeMan_Furcard",
+        "/Game/PBZContent/Characters/Boss/BladeMan/Material/MI_Boss_BladeMan_Furcard.MI_Boss_BladeMan_Furcard",
+        "/Game/PBZContent/Characters/Boss/BladeMan/Material/MI_Boss_BladeMan_Grass.MI_Boss_BladeMan_Grass",
+        "/Game/PBZContent/Characters/Boss/BladeMan/Material/MI_Boss_BladeMan_Hat.MI_Boss_BladeMan_Hat",
+        null,
+        "/Game/PBZContent/Characters/Boss/BladeMan/Material/MI_Boss_BladeMan_Mask.MI_Boss_BladeMan_Mask",
+        "/Game/PBZContent/Characters/Boss/BladeMan/Material/MI_Boss_BladeMan_Grass.MI_Boss_BladeMan_Grass",
+        "/Game/PBZContent/Characters/Boss/BladeMan/Material/MI_Boss_BladeMan_Grass.MI_Boss_BladeMan_Grass",
+        "/Game/PBZContent/Characters/Boss/BladeMan/Material/MI_Boss_BladeMan_Furcard.MI_Boss_BladeMan_Furcard",
+        "/Game/PBZContent/Characters/Boss/BladeMan/Material/MI_Boss_BladeMan_Body.MI_Boss_BladeMan_Body",
+        "/Game/PBZContent/Characters/Boss/BladeMan/Material/MI_Boss_BladeMan_Arm.MI_Boss_BladeMan_Arm",
+        null,
+        "/Game/PBZContent/Characters/Boss/BladeMan/Material/MI_Boss_BladeMan_Leg.MI_Boss_BladeMan_Leg",
+        "/Game/PBZContent/Characters/Boss/BladeMan/Material/MI_Boss_BladeMan_Leg.MI_Boss_BladeMan_Leg",
+        "/Game/PBZContent/Characters/Boss/BladeMan/Material/MI_Boss_BladeMan_Body.MI_Boss_BladeMan_Body"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "JadeMaskMan",
+      "id": "Hun_OutFit_Boss_JadeMaskMan",
+      "name": "玉面郎君",
+      "body": "/HuaShira/Characters/Monster/MaskAssassin_Gold/MaskAssassin_Gold.MaskAssassin_Gold",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/Monster/MaskAssassin_Gold/MaskAssassin_Gold_Skeleton.MaskAssassin_Gold_Skeleton",
+      "clothParts": [],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/Monster/MaskAssassin_Gold/MaskAssassin_Jade_Mask.MaskAssassin_Jade_Mask",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/EliteMonster/MaskAssassin/Material/C/MI_EliteMonster_MaskAssassin_Mask_C.MI_EliteMonster_MaskAssassin_Mask_C"
+          ]
+        }
+      ],
+      "grooms": [],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_JadeMaskMan_w.T_BP_Monster_JadeMaskMan_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Boss/MaskAssassin_Jade/Material/MI_Boss_MaskAssassin_Jade_Cloth.MI_Boss_MaskAssassin_Jade_Cloth",
+        "/Game/PBZContent/Characters/Boss/MaskAssassin_Jade/Material/MI_Boss_MaskAssassin_Jade_Cloth.MI_Boss_MaskAssassin_Jade_Cloth",
+        "/Game/PBZContent/Characters/Boss/MaskAssassin_Jade/Material/MI_Boss_MaskAssassin_Jade_Cloth.MI_Boss_MaskAssassin_Jade_Cloth",
+        "/Game/PBZContent/Characters/Boss/MaskAssassin_Jade/Material/MI_Boss_MaskAssassin_Jade_Cloth.MI_Boss_MaskAssassin_Jade_Cloth",
+        "/Game/PBZContent/Characters/Boss/MaskAssassin_Jade/Material/MI_Boss_MaskAssassin_Jade_Cloth.MI_Boss_MaskAssassin_Jade_Cloth",
+        "/Game/PBZContent/Characters/Boss/MaskAssassin_Jade/Material/MI_Boss_MaskAssassin_Jade_Armor.MI_Boss_MaskAssassin_Jade_Armor",
+        "/Game/PBZContent/Characters/Boss/MaskAssassin_Jade/Material/MI_Boss_MaskAssassin_Jade_Armor.MI_Boss_MaskAssassin_Jade_Armor",
+        "/Game/PBZContent/Characters/EliteMonster/MaskAssassin/Material/A/MI_EliteMonster_MaskAssassin_Mask_A.MI_EliteMonster_MaskAssassin_Mask_A"
+      ],
+      "headMaterials": [],
+      "staticParts": [],
+      "adaptation": "Rigid one-bone mask attached to the verified native mouse_Socket face socket."
+    },
+    {
+      "key": "YouLong",
+      "id": "Hun_OutFit_Boss_YouLong",
+      "name": "水行帮主·游龙",
+      "body": "/HuaShira/Characters/EliteMonster/YouLong/YouLong.YouLong",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/EliteMonster/YouLong/YouLong_Skeleton.YouLong_Skeleton",
+      "clothParts": [],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.7757,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_YouLong_SecondBrother_w.T_BP_Monster_YouLong_SecondBrother_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_SecondBrother.BP_Monster_YouLong_SecondBrother_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteMonster/YuuLoong/Material/MI_YuuLoong_Body.MI_YuuLoong_Body",
+        "/Game/PBZContent/Characters/EliteMonster/YuuLoong/Material/MI_EliteMonster_YuuLoong_Cloth_UDIM.MI_EliteMonster_YuuLoong_Cloth_UDIM"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "YuCongP1",
+      "id": "Hun_OutFit_Boss_YuCongP1",
+      "name": "混沌魔偶·玉琮",
+      "body": "/HuaShira/Characters/Boss/YuCong/SkinParts/YuCong_Body.YuCong_Body",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/Boss/YuCong/YuCong_Skeleton.YuCong_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Boss/YuCong/SkinParts/CA_YuCong_Cloth01.CA_YuCong_Cloth01",
+        "/HuaShira/Characters/Boss/YuCong/SkinParts/CA_YuCong_Hair01.CA_YuCong_Hair01"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/Boss/YuCong/Masks/YuCong_Mask_Left.YuCong_Mask_Left",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/Boss/YuZong/Material/MI_Boss_YuZong_Cloth.MI_Boss_YuZong_Cloth"
+          ]
+        },
+        {
+          "path": "/HuaShira/Characters/Boss/YuCong/Masks/YuCong_Mask_Middle.YuCong_Mask_Middle",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/Boss/YuZong/Material/MI_Boss_YuZong_Cloth.MI_Boss_YuZong_Cloth"
+          ]
+        },
+        {
+          "path": "/HuaShira/Characters/Boss/YuCong/Masks/YuCong_Mask_Right.YuCong_Mask_Right",
+          "leader": "body",
+          "materials": [
+            "/Game/PBZContent/Characters/Boss/YuZong/Material/MI_Boss_YuZong_Cloth.MI_Boss_YuZong_Cloth"
+          ]
+        }
+      ],
+      "grooms": [],
+      "bodyScale": 0.8368,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_YuCong_P1_w.T_BP_Monster_YuCong_P1_w",
+      "femaleVoice": "yucong",
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_P1.BP_Monster_YuCong_P1_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Boss/YuZong/Material/MI_Boss_YuZong_Cloth.MI_Boss_YuZong_Cloth"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "ZuoShangEnding",
+      "id": "Hun_OutFit_Boss_ZuoShangEnding",
+      "name": "左殇·决战",
+      "body": "/HuaShira/Characters/Hero/ZuoShang/SkinParts/ZuoShang_Body.ZuoShang_Body",
+      "head": "/HuaShira/Characters/Hero/ZuoShang/SkinParts/ZuoShang_Head.ZuoShang_Head",
+      "skeleton": "/HuaShira/Characters/Hero/ZuoShang/ZuoShang_Skeleton.ZuoShang_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Hero/ZuoShang/SkinParts/CA_ZuoShang_Cloth01.CA_ZuoShang_Cloth01",
+        "/HuaShira/Characters/Hero/ZuoShang/SkinParts/CA_ZuoShang_PartCloth01.CA_ZuoShang_PartCloth01",
+        "/HuaShira/Characters/Hero/ZuoShang/SkinParts/Cloth/CA_ZuoShang_P2_Hair01.CA_ZuoShang_P2_Hair01"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/Hero/ZuoShang/SkinParts/ZuoShang_BrowLashCard.ZuoShang_BrowLashCard",
+          "leader": "head",
+          "materials": [
+            "/Game/PBZContent/Characters/NPC/ZhengDaoDuiZhang_01/Material/MI_NPC_ZhengDaoDuiZhang_01_Lash.MI_NPC_ZhengDaoDuiZhang_01_Lash",
+            "/Game/PBZContent/Characters/Hero/Hun_Young/Material/V02/Hair/MI_HunYoung_Eyebrows.MI_HunYoung_Eyebrows"
+          ]
+        }
+      ],
+      "grooms": [
+        {
+          "role": "groom-EliteBoss_ZuoShang_Brow01",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair01/EliteBoss_ZuoShang_Brow01.EliteBoss_ZuoShang_Brow01",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair01/EliteBoss_ZuoShang_Brow01_ZuoShang_Head_Binding.EliteBoss_ZuoShang_Brow01_ZuoShang_Head_Binding"
+        },
+        {
+          "role": "groom-EliteBoss_ZuoShang_Lash01",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair01/EliteBoss_ZuoShang_Lash01.EliteBoss_ZuoShang_Lash01",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair01/EliteBoss_ZuoShang_Lash01_ZuoShang_Head_Binding.EliteBoss_ZuoShang_Lash01_ZuoShang_Head_Binding"
+        },
+        {
+          "role": "groom-ZuoShang_HairGroom_01",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair02/V02/ZuoShang_HairGroom_01.ZuoShang_HairGroom_01",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair02/V02/ZuoShang_HairGroom_01_ZuoShang_Head_Binding.ZuoShang_HairGroom_01_ZuoShang_Head_Binding"
+        },
+        {
+          "role": "groom-ZuoShang_HairGroom_02",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair02/V02/ZuoShang_HairGroom_02.ZuoShang_HairGroom_02",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair02/V02/ZuoShang_HairGroom_02_ZuoShang_Head_Binding.ZuoShang_HairGroom_02_ZuoShang_Head_Binding"
+        },
+        {
+          "role": "groom-ZuoShang_HairGroom_03",
+          "asset": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair02/V02/ZuoShang_HairGroom_03.ZuoShang_HairGroom_03",
+          "binding": "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Hair/Hair02/V02/ZuoShang_HairGroom_03_ZuoShang_Head_Binding.ZuoShang_HairGroom_03_ZuoShang_Head_Binding"
+        }
+      ],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_ZuoShang_Ending_w.T_BP_Monster_ZuoShang_Ending_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/054_ZuoShang/BP_Monster_ZuoShang_Ending.BP_Monster_ZuoShang_Ending_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Material/MI_EliteBoss_Zuoshang_Body.MI_EliteBoss_Zuoshang_Body",
+        "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Material/MI_EliteBoss_Zuoshang_Armor.MI_EliteBoss_Zuoshang_Armor",
+        "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Material/MI_EliteBoss_Zuoshang_Fabric.MI_EliteBoss_Zuoshang_Fabric"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "ChenZhu",
+      "id": "Hun_OutFit_Boss_ChenZhu",
+      "name": "铁面杀手·陈柱",
+      "body": "/HuaShira/Characters/EliteMonster/MaskAssassin/MaskAssassin_Iron/MaskAssassin_Iron.MaskAssassin_Iron",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/Monster/MaskAssassin_Gold/MaskAssassin_Gold_Skeleton.MaskAssassin_Gold_Skeleton",
+      "clothParts": [],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_IronMaskMan_w.T_BP_Monster_IronMaskMan_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan.BP_Monster_IronMaskMan_C",
+      "bodyMaterials": [],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "YoungHun",
+      "id": "Hun_OutFit_Boss_YoungHun",
+      "name": "少年魂",
+      "body": "/HuaShira/Characters/Hero/Young_Hun/SkinParts/Hun_Young_Body.Hun_Young_Body",
+      "head": "/HuaShira/Characters/Hero/Young_Hun/SkinParts/Hun_Young_Head.Hun_Young_Head",
+      "skeleton": "/HuaShira/Characters/Hero/Young_Hun/Hun_Young_Skeleton.Hun_Young_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Hero/Young_Hun/SkinParts/Cloth/CA_Hun_Young_Cloth01.CA_Hun_Young_Cloth01",
+        "/HuaShira/Characters/Hero/Young_Hun/SkinParts/Cloth/CA_Hun_YOung_Cloth02.CA_Hun_YOung_Cloth02",
+        "/HuaShira/Characters/Hero/Young_Hun/SkinParts/Cloth/CA_Hun_Young_Hair01.CA_Hun_Young_Hair01"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/Hero/Young_Hun/SkinParts/Hun_Young_BrowLashCard.Hun_Young_BrowLashCard",
+          "leader": "head"
+        }
+      ],
+      "grooms": [
+        {
+          "role": "groom-Hun_Young_Brow",
+          "asset": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/Hun_Young_Brow.Hun_Young_Brow",
+          "binding": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/GB_Hun_Young_Brow.GB_Hun_Young_Brow"
+        },
+        {
+          "role": "groom-Hun_Young_Lash",
+          "asset": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/Hun_Young_Lash.Hun_Young_Lash",
+          "binding": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/GB_Hun_Young_Lash.GB_Hun_Young_Lash"
+        },
+        {
+          "role": "groom-HunYoung_Hair_A",
+          "asset": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/HunYoung_Hair_A.HunYoung_Hair_A",
+          "binding": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/GB_HunYoung_Hair_A.GB_HunYoung_Hair_A"
+        },
+        {
+          "role": "groom-HunYoung_Hair_B",
+          "asset": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/HunYoung_Hair_B.HunYoung_Hair_B",
+          "binding": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/GB_HunYoung_Hair_B.GB_HunYoung_Hair_B"
+        },
+        {
+          "role": "groom-HunYoung_Hair_Bangs",
+          "asset": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/HunYoung_Hair_Bangs.HunYoung_Hair_Bangs",
+          "binding": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/GB_HunYoung_Hair_Bangs.GB_HunYoung_Hair_Bangs"
+        },
+        {
+          "role": "groom-HunYoung_Hair_C",
+          "asset": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/HunYoung_Hair_C.HunYoung_Hair_C",
+          "binding": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/GB_HunYoung_Hair_C.GB_HunYoung_Hair_C"
+        },
+        {
+          "role": "groom-HunYoung_Hair_Tails",
+          "asset": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/HunYoung_Hair_Tails.HunYoung_Hair_Tails",
+          "binding": "/Game/PBZContent/Characters/Hero/Hun_Young/Mesh/V02/Hair/GB_HunYoung_Hair_Tails.GB_HunYoung_Hair_Tails"
+        }
+      ],
+      "bodyScale": 1,
+      "portrait": null,
+      "femaleVoice": null,
+      "hideBones": [],
+      "bodyMaterials": [],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "ZhenYao",
+      "id": "Hun_OutFit_Boss_ZhenYao",
+      "name": "珍妖",
+      "body": "/HuaShira/Characters/NPC/ZhenYao/SkinParts/ZhenYao_Body.ZhenYao_Body",
+      "head": "/HuaShira/Characters/NPC/ZhenYao/SkinParts/ZhenYao_Head_Old.ZhenYao_Head_Old",
+      "skeleton": "/HuaShira/Characters/NPC/ZhenYao/ZhenYao_Skeleton.ZhenYao_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/NPC/ZhenYao/SkinParts/CA_ZhenYao_Hair01.CA_ZhenYao_Hair01",
+        "/HuaShira/Characters/NPC/ZhenYao/SkinParts/CA_ZhenYao_Hair02.CA_ZhenYao_Hair02",
+        "/HuaShira/Characters/NPC/ZhenYao/SkinParts/Cloth/CA_SM_ZhenYao_cloth_01.CA_SM_ZhenYao_cloth_01",
+        "/HuaShira/Characters/NPC/ZhenYao/SkinParts/Cloth/CA_SM_ZhenYao_cloth_03.CA_SM_ZhenYao_cloth_03",
+        "/HuaShira/Characters/NPC/ZhenYao/SkinParts/Cloth/CA_SM_ZhenYao_cloth_04.CA_SM_ZhenYao_cloth_04",
+        "/HuaShira/Characters/NPC/ZhenYao/SkinParts/Cloth/CA_SM_ZhenYao_cloth_05.CA_SM_ZhenYao_cloth_05"
+      ],
+      "extraParts": [
+        {
+          "path": "/HuaShira/Characters/NPC/ZhenYao/SkinParts/ZhenYao_BrowLashCard.ZhenYao_BrowLashCard",
+          "leader": "head"
+        }
+      ],
+      "grooms": [
+        {
+          "role": "groom-ZhenYao_Brow_V02",
+          "asset": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Brow_V02.ZhenYao_Brow_V02",
+          "binding": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Brow_V02_ZhenYao_Head_Binding.ZhenYao_Brow_V02_ZhenYao_Head_Binding"
+        },
+        {
+          "role": "groom-ZhenYao_Hair01_V02",
+          "asset": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Hair01_V02.ZhenYao_Hair01_V02",
+          "binding": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Hair01_V02_ZhenYao_Head_Binding.ZhenYao_Hair01_V02_ZhenYao_Head_Binding"
+        },
+        {
+          "role": "groom-ZhenYao_Hair02_V02",
+          "asset": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Hair02_V02.ZhenYao_Hair02_V02",
+          "binding": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Hair02_V02_ZhenYao_Head_Binding.ZhenYao_Hair02_V02_ZhenYao_Head_Binding"
+        },
+        {
+          "role": "groom-ZhenYao_Hair03_V02",
+          "asset": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Hair03_V02.ZhenYao_Hair03_V02",
+          "binding": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Hair03_V02_ZhenYao_Head_Binding.ZhenYao_Hair03_V02_ZhenYao_Head_Binding"
+        },
+        {
+          "role": "groom-ZhenYao_Hair04_V02",
+          "asset": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Hair04_V02.ZhenYao_Hair04_V02",
+          "binding": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Hair04_V02_ZhenYao_Head_Binding.ZhenYao_Hair04_V02_ZhenYao_Head_Binding"
+        },
+        {
+          "role": "groom-ZhenYao_Hair05_V02",
+          "asset": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Hair05_V02.ZhenYao_Hair05_V02",
+          "binding": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Hair05_V02_ZhenYao_Head_Binding.ZhenYao_Hair05_V02_ZhenYao_Head_Binding"
+        },
+        {
+          "role": "groom-ZhenYao_Lash_V02",
+          "asset": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Lash_V02.ZhenYao_Lash_V02",
+          "binding": "/Game/PBZContent/Characters/NPC/ZhenYao/Mesh/Hair/V02/ZhenYao_Lash_V02_ZhenYao_Head_Binding.ZhenYao_Lash_V02_ZhenYao_Head_Binding"
+        }
+      ],
+      "bodyScale": 1,
+      "portrait": "/Game/PBZContent/UI/UINew/System/Character/Texture/T_ZhenYaoBG.T_ZhenYaoBG",
+      "femaleVoice": "zhenyao",
+      "hideBones": [],
+      "bodyMaterials": [],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "TieGui",
+      "id": "Hun_OutFit_Boss_TieGui",
+      "name": "铁鬼",
+      "body": "/HuaShira/Characters/EliteMonster/TieGui/SkinParts/TieGui_Body.TieGui_Body",
+      "head": "/HuaShira/Characters/EliteMonster/TieGui/SkinParts/TieGui_Head.TieGui_Head",
+      "skeleton": "/HuaShira/Characters/EliteMonster/LuanShi/LuanShi_Skeleton.LuanShi_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteMonster/TieGui/SkinParts/CA_TieGui_Hair01.CA_TieGui_Hair01",
+        "/HuaShira/Characters/EliteMonster/TieGui/SkinParts/CA_TieGui_Cloth01.CA_TieGui_Cloth01"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.6828,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_TieGui_w.T_BP_Monster_TieGui_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Boss/TieGui/Material/MI_Boss_TieGui_Body_UDIM.MI_Boss_TieGui_Body_UDIM"
+      ],
+      "headMaterials": [
+        "/Game/PBZContent/Characters/Boss/TieGui/Material/MI_Boss_TieGui_Eye.MI_Boss_TieGui_Eye",
+        "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Material/MI_EliteBoss_Zuoshang_Teeth.MI_EliteBoss_Zuoshang_Teeth",
+        "/Game/PBZContent/Characters/Boss/BaiTouKe/Material/MI_Boss_BaiTouKe_EyeAO.MI_Boss_BaiTouKe_EyeAO",
+        "/Game/PBZContent/Characters/EliteBoss/ZuoShang/Material/MI_EliteBoss_Zuoshang_Lacrimal.MI_EliteBoss_Zuoshang_Lacrimal",
+        "/Game/PBZContent/Characters/Boss/TieGui/Material/MI_Boss_TieGui_Body_UDIM.MI_Boss_TieGui_Body_UDIM",
+        "/Game/PBZContent/Characters/Boss/TieGui/Material/MI_Boss_TieGui_Hair1.MI_Boss_TieGui_Hair1"
+      ],
+      "staticParts": []
+    },
+    {
+      "key": "PowerMan",
+      "id": "Hun_OutFit_Boss_PowerMan",
+      "name": "力者",
+      "body": "/HuaShira/Characters/EliteBoss/PowerMan/SkinParts/PowerSawMan_Body.PowerSawMan_Body",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/EliteBoss/PowerMan/PowerMan_Skeleton.PowerMan_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteBoss/PowerMan/SkinParts/CA_PowerSawMan_Cloth01.CA_PowerSawMan_Cloth01",
+        "/HuaShira/Characters/EliteBoss/PowerMan/SkinParts/CA_PowerSawMan_Cloth02.CA_PowerSawMan_Cloth02",
+        "/HuaShira/Characters/EliteBoss/PowerMan/SkinParts/CA_PowerSawMan_Cloth03.CA_PowerSawMan_Cloth03"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.3914,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_PowerMan_w.T_BP_Monster_PowerMan_w",
+      "femaleVoice": null,
+      "hideBones": [
+        "pelvis001"
+      ],
+      "nativeClass": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_PowerMan.BP_Monster_PowerMan_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteBoss/PowerMan/Material/MI_EliteBoss_Powerman_Body.MI_EliteBoss_Powerman_Body",
+        "/Game/PBZContent/Characters/EliteBoss/PowerMan/Material/MI_EliteBoss_Powerman_Cloth_UDIM.MI_EliteBoss_Powerman_Cloth_UDIM",
+        "/Game/PBZContent/Characters/EliteBoss/SawMan/Material/MI_EliteBoss_Sawman_Cloth_UDIM.MI_EliteBoss_Sawman_Cloth_UDIM"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "PengMeng",
+      "id": "Hun_OutFit_Boss_PengMeng",
+      "name": "斧老大·彭猛",
+      "body": "/HuaShira/Characters/Boss/PengMeng/SkinParts/PengMeng_Body.PengMeng_Body",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/Boss/PengMeng/PengMeng_Skeleton.PengMeng_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/Boss/PengMeng/SkinParts/CA_PengMeng_Cloth01.CA_PengMeng_Cloth01"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.4,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_PengMeng_Axe_w.T_BP_Monster_PengMeng_Axe_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/Boss/AxThug/Material/MI_Boss_AxThug_Teeth.MI_Boss_AxThug_Teeth",
+        "/Game/PBZContent/Characters/Boss/AxThug/Material/MI_Boss_AxThug_Eye_Occlusion.MI_Boss_AxThug_Eye_Occlusion",
+        "/Game/PBZContent/Characters/Boss/AxThug/Material/MI_Boss_AxThug_Eye1.MI_Boss_AxThug_Eye1",
+        "/Game/PBZContent/Characters/Boss/AxThug/Material/MI_Boss_AxThug_Cloth_UDIM.MI_Boss_AxThug_Cloth_UDIM",
+        "/Game/PBZContent/Characters/Boss/AxThug/Material/MI_Boss_AxThug_Hair.MI_Boss_AxThug_Hair",
+        "/Game/PBZContent/Characters/Boss/AxThug/Material/MI_Boss_AxThug_Body.MI_Boss_AxThug_Body",
+        "/Game/PBZContent/Characters/Boss/AxThug/Material/MI_Boss_AxThug_Cloth.MI_Boss_AxThug_Cloth"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "XiaoXue",
+      "id": "Hun_OutFit_Boss_XiaoXue",
+      "name": "吞噬尸体的小雪",
+      "body": "/HuaShira/Characters/EliteMonster/XiaoXue/SkinParts/XiaoXue_Body.XiaoXue_Body",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/EliteMonster/XiaoXue/XiaoXue_Skeleton.XiaoXue_Skeleton",
+      "clothParts": [
+        "/HuaShira/Characters/EliteMonster/XiaoXue/SkinParts/CA_XiaoXue_Cloth01.CA_XiaoXue_Cloth01",
+        "/HuaShira/Characters/EliteMonster/XiaoXue/SkinParts/CA_XiaoXue_Cloth02.CA_XiaoXue_Cloth02"
+      ],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.86,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_XiaoXue_w.T_BP_Monster_XiaoXue_w",
+      "femaleVoice": "xiaoxue",
+      "hideBones": [],
+      "nativeClass": "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteMonster/FemaleThug_Savage/Material/MI_EliteMonster_FemaleThug_Savage_Hair.MI_EliteMonster_FemaleThug_Savage_Hair",
+        "/Game/PBZContent/Characters/EliteMonster/FemaleThug_XiaoXue/Material/MI_EliteMonster_FemaleThug_XiaoXue_Body_UDIM.MI_EliteMonster_FemaleThug_XiaoXue_Body_UDIM"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    },
+    {
+      "key": "SawMan",
+      "id": "Hun_OutFit_Boss_SawMan",
+      "name": "锯者",
+      "body": "/HuaShira/Characters/Boss/SawMan/SawMan.SawMan",
+      "head": null,
+      "skeleton": "/HuaShira/Characters/Boss/SawMan/SawMan_Skeleton.SawMan_Skeleton",
+      "clothParts": [],
+      "extraParts": [],
+      "grooms": [],
+      "bodyScale": 0.9,
+      "portrait": "/Game/PBZContent/UI/InGame/Literature/Gallery/T_BP_Monster_PowerMan_w.T_BP_Monster_PowerMan_w",
+      "femaleVoice": null,
+      "hideBones": [],
+      "nativeClass": "/HuaShira/Animation/Seqs/ActorForSeqs/BP_Seq_SawMan.BP_Seq_SawMan_C",
+      "bodyMaterials": [
+        "/Game/PBZContent/Characters/EliteBoss/SawMan/Material/MI_EliteBoss_Sawman_Helmet.MI_EliteBoss_Sawman_Helmet",
+        "/Game/PBZContent/Characters/EliteBoss/SawMan/Material/MI_EliteBoss_Sawman_Helmet.MI_EliteBoss_Sawman_Helmet",
+        "/Game/PBZContent/Characters/EliteBoss/SawMan/Material/MI_EliteBoss_Sawman_Helmet.MI_EliteBoss_Sawman_Helmet",
+        "/Game/PBZContent/Characters/EliteBoss/SawMan/Material/MI_EliteBoss_Sawman_Cover.MI_EliteBoss_Sawman_Cover",
+        "/Game/PBZContent/Characters/EliteBoss/SawMan/Material/MI_EliteBoss_Sawman_Fur.MI_EliteBoss_Sawman_Fur",
+        "/Game/PBZContent/Characters/EliteBoss/SawMan/Material/MI_EliteBoss_Sawman_Armpad.MI_EliteBoss_Sawman_Armpad",
+        "/Game/PBZContent/Characters/EliteBoss/SawMan/Material/MI_EliteBoss_Sawman_Cloth.MI_EliteBoss_Sawman_Cloth",
+        "/Game/PBZContent/Characters/EliteBoss/SawMan/Material/MI_EliteBoss_Sawman_Cloth.MI_EliteBoss_Sawman_Cloth",
+        "/Game/PBZContent/Characters/EliteBoss/SawMan/Material/MI_EliteBoss_Sawman_Cloth.MI_EliteBoss_Sawman_Cloth",
+        "/Game/PBZContent/Characters/EliteBoss/SawMan/Material/MI_EliteBoss_Sawman_Cloth.MI_EliteBoss_Sawman_Cloth",
+        "/Game/PBZContent/Characters/EliteBoss/SawMan/Material/MI_EliteBoss_Sawman_Cloth.MI_EliteBoss_Sawman_Cloth",
+        "/Game/PBZContent/Characters/EliteBoss/SawMan/Material/MI_EliteBoss_Sawman_Cloth.MI_EliteBoss_Sawman_Cloth"
+      ],
+      "headMaterials": [],
+      "staticParts": []
+    }
+  ]
+}
